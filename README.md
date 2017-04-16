@@ -1,7 +1,7 @@
-# test coverage for  [xlsx (v0.9.10)](https://oss.sheetjs.com/js-xlsx/)  [![npm package](https://img.shields.io/npm/v/npmtest-xlsx.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xlsx) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xlsx.svg)](https://travis-ci.org/npmtest/node-npmtest-xlsx)
+# test coverage for  [xlsx (v0.9.11)](https://oss.sheetjs.com/js-xlsx/)  [![npm package](https://img.shields.io/npm/v/npmtest-xlsx.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xlsx) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xlsx.svg)](https://travis-ci.org/npmtest/node-npmtest-xlsx)
 #### Excel (XLSB/XLSX/XLSM/XLS/XML) and ODS (ODS/FODS/UOS) spreadsheet parser and writer
 
-[![NPM](https://nodei.co/npm/xlsx.png?downloads=true)](https://www.npmjs.com/package/xlsx)
+[![NPM](https://nodei.co/npm/xlsx.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/xlsx)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-xlsx/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,11 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-xlsx/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-xlsx/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xlsx/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xlsx/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-xlsx/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-xlsx/build/coverage.html/index.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-xlsx/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-xlsx/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-xlsx/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-xlsx%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-xlsx/build/test-report.html)
+[![test-report](https://npmtest.github.io/node-npmtest-xlsx/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-xlsx/build/test-report.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-xlsx/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-xlsx%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-xlsx/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-xlsx/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-xlsx/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-xlsx/build/screenCapture.npmPackageListing.svg)
 
@@ -63,13 +63,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "86434dd92fc743d8fced728c3e1e373b22ca2820",
-        "tarball": "https://registry.npmjs.org/xlsx/-/xlsx-0.9.10.tgz"
+        "shasum": "cafd6b052acdedd85cfc4798fb1b8aa86adf1e32",
+        "tarball": "https://registry.npmjs.org/xlsx/-/xlsx-0.9.11.tgz"
     },
     "engines": {
         "node": ">=0.8"
     },
-    "gitHead": "51182e57efe0b695bc7a616927799a8e01465830",
+    "gitHead": "f51feb375a0072ae15461955f37d0047fdf521c8",
     "homepage": "https://oss.sheetjs.com/js-xlsx/",
     "keywords": [
         "excel",
@@ -85,13 +85,11 @@
     "main": "./xlsx",
     "maintainers": [
         {
-            "name": "sheetjs",
-            "email": "dev@sheetjs.com"
+            "name": "sheetjs"
         }
     ],
     "name": "xlsx",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/SheetJS/js-xlsx.git"
@@ -100,7 +98,7 @@
         "pretest": "git submodule init && git submodule update",
         "test": "make travis"
     },
-    "version": "0.9.10"
+    "version": "0.9.11"
 }
 ```
 
