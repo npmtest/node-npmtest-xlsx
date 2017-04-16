@@ -1,5 +1,7 @@
-<html lang="en"><head>
-    <title>Code coverage report for node-npmtest-xlsx/xlsx/dist/cpexcel.js</title>
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for node-npmtest-xlsx/node_modules/xlsx/dist/cpexcel.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -192,7 +194,7 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-xlsx">npmtest-xlsx (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-xlsx/xlsx/dist/cpexcel.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-xlsx/node_modules/xlsx/dist/cpexcel.js</span></h1>
     <h2>
         
         Statements: <span class="metric">82.56% <small>(2225 / 2695)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -208,11 +210,11 @@
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../index.html">All files</a> » <a href="index.html">node-npmtest-xlsx/xlsx/dist/</a> » cpexcel.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-xlsx/node_modules/xlsx/dist/</a> &#187; cpexcel.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tbody><tr><td class="line-count">1
+<tr><td class="line-count">1
 2
 3
 4
@@ -2867,17 +2869,17 @@
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/* cpexcel.js (C) 2013-present SheetJS -- http://sheetjs.com */
 /*jshint -W100 */
 var cptable = {version:"1.8.0"};
-cptable[437] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜ¢£¥₧ƒáíóúñÑªº¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■&nbsp;", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[620] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàąçêëèïîćÄĄĘęłôöĆûùŚÖÜ¢Ł¥śƒŹŻóÓńŃźż¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■&nbsp;", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[737] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρσςτυφχψ░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀ωάέήϊίόύϋώΆΈΉΊΌΎΏ±≥≤ΪΫ÷≈°∙·√ⁿ²■&nbsp;", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[850] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»░▒▓│┤ÁÂÀ©╣║╗╝¢¥┐└┴┬├─┼ãÃ╚╔╩╦╠═╬¤ðÐÊËÈıÍÎÏ┘┌█▄¦Ì▀ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±‗¾¶§÷¸°¨·¹³²■&nbsp;", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[852] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäůćçłëŐőîŹÄĆÉĹĺôöĽľŚśÖÜŤťŁ×čáíóúĄąŽžĘę¬źČş«»░▒▓│┤ÁÂĚŞ╣║╗╝Żż┐└┴┬├─┼Ăă╚╔╩╦╠═╬¤đĐĎËďŇÍÎě┘┌█▄ŢŮ▀ÓßÔŃńňŠšŔÚŕŰýÝţ´­˝˛ˇ˘§÷¸°¨˙űŘř■&nbsp;", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[857] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàåçêëèïîıÄÅÉæÆôöòûùİÖÜø£ØŞşáíóúñÑĞğ¿®¬½¼¡«»░▒▓│┤ÁÂÀ©╣║╗╝¢¥┐└┴┬├─┼ãÃ╚╔╩╦╠═╬¤ºªÊËÈ�ÍÎÏ┘┌█▄¦Ì▀ÓßÔÒõÕµ�×ÚÛÙìÿ¯´­±�¾¶§÷¸°¨·¹³²■&nbsp;", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[861] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàåçêëèÐðÞÄÅÉæÆôöþûÝýÖÜø£Ø₧ƒáíóúÁÍÓÚ¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■&nbsp;", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[865] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø₧ƒáíóúñÑªº¿⌐¬½¼¡«¤░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■&nbsp;", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[866] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмноп░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀рстуфхцчшщъыьэюяЁёЄєЇїЎў°∙·√№¤■&nbsp;", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[874] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€����…�����������‘’“”•–—��������&nbsp;กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืฺุู����฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛����", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[895] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ČüéďäĎŤčěĚĹÍľǪÄÁÉžŽôöÓůÚýÖÜŠĽÝŘťáíóúňŇŮÔšřŕŔ¼§«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■&nbsp;", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[437] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜ¢£¥₧ƒáíóúñÑªº¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[620] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàąçêëèïîćÄĄĘęłôöĆûùŚÖÜ¢Ł¥śƒŹŻóÓńŃźż¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[737] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρσςτυφχψ░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀ωάέήϊίόύϋώΆΈΉΊΌΎΏ±≥≤ΪΫ÷≈°∙·√ⁿ²■ ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[850] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»░▒▓│┤ÁÂÀ©╣║╗╝¢¥┐└┴┬├─┼ãÃ╚╔╩╦╠═╬¤ðÐÊËÈıÍÎÏ┘┌█▄¦Ì▀ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±‗¾¶§÷¸°¨·¹³²■ ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[852] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäůćçłëŐőîŹÄĆÉĹĺôöĽľŚśÖÜŤťŁ×čáíóúĄąŽžĘę¬źČş«»░▒▓│┤ÁÂĚŞ╣║╗╝Żż┐└┴┬├─┼Ăă╚╔╩╦╠═╬¤đĐĎËďŇÍÎě┘┌█▄ŢŮ▀ÓßÔŃńňŠšŔÚŕŰýÝţ´­˝˛ˇ˘§÷¸°¨˙űŘř■ ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[857] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàåçêëèïîıÄÅÉæÆôöòûùİÖÜø£ØŞşáíóúñÑĞğ¿®¬½¼¡«»░▒▓│┤ÁÂÀ©╣║╗╝¢¥┐└┴┬├─┼ãÃ╚╔╩╦╠═╬¤ºªÊËÈ�ÍÎÏ┘┌█▄¦Ì▀ÓßÔÒõÕµ�×ÚÛÙìÿ¯´­±�¾¶§÷¸°¨·¹³²■ ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[861] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàåçêëèÐðÞÄÅÉæÆôöþûÝýÖÜø£Ø₧ƒáíóúÁÍÓÚ¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[865] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø₧ƒáíóúñÑªº¿⌐¬½¼¡«¤░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[866] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмноп░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀рстуфхцчшщъыьэюяЁёЄєЇїЎў°∙·√№¤■ ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[874] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€����…�����������‘’“”•–—�������� กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืฺุู����฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛����", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[895] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ČüéďäĎŤčěĚĹÍľǪÄÁÉžŽôöÓůÚýÖÜŠĽÝŘťáíóúňŇŮÔšřŕŔ¼§«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
 cptable[932] = (function(){ var d = [], e = {}, D = [], j;
 D[0] = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~���������������������������������｡｢｣､･ｦｧｨｩｪｫｬｭｮｯｰｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝﾞﾟ��������������������������������".split("");
 for(j = 0; j != D[0].length; ++j) if(D[0][j].charCodeAt(0) !== 0xFFFD) { e[D[0][j]] = 0 + j; d[0 + j] = D[0][j];}
@@ -3658,33 +3660,33 @@ for(j = 0; j != D[248].length; ++j) if(D[248][j].charCodeAt(0) !== 0xFFFD) { e[D
 D[249] = "����������������������������������������������������������������纘纛纙臠臡虆虇虈襹襺襼襻觿讘讙躥躤躣鑮鑭鑯鑱鑳靉顲饟鱨鱮鱭鸋鸍鸐鸏鸒鸑麡黵鼉齇齸齻齺齹圞灦籯蠼趲躦釃鑴鑸鑶鑵驠鱴鱳鱱鱵鸔鸓黶鼊����������������������������������龤灨灥糷虪蠾蠽蠿讞貜躩軉靋顳顴飌饡馫驤驦驧鬤鸕鸗齈戇欞爧虌躨钂钀钁驩驨鬮鸙爩虋讟钃鱹麷癵驫鱺鸝灩灪麤齾齉龘碁銹裏墻恒粧嫺╔╦╗╠╬╣╚╩╝╒╤╕╞╪╡╘╧╛╓╥╖╟╫╢╙╨╜║═╭╮╰╯▓�".split("");
 for(j = 0; j != D[249].length; ++j) if(D[249][j].charCodeAt(0) !== 0xFFFD) { e[D[249][j]] = 63744 + j; d[63744 + j] = D[249][j];}
 return {"enc": e, "dec": d }; })();
-cptable[1250] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚�„…†‡�‰Š‹ŚŤŽŹ�‘’“”•–—�™š›śťžź&nbsp;ˇ˘Ł¤Ą¦§¨©Ş«¬­®Ż°±˛ł´µ¶·¸ąş»Ľ˝ľżŔÁÂĂÄĹĆÇČÉĘËĚÍÎĎĐŃŇÓÔŐÖ×ŘŮÚŰÜÝŢßŕáâăäĺćçčéęëěíîďđńňóôőö÷řůúűüýţ˙", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[1251] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ЂЃ‚ѓ„…†‡€‰Љ‹ЊЌЋЏђ‘’“”•–—�™љ›њќћџ&nbsp;ЎўЈ¤Ґ¦§Ё©Є«¬­®Ї°±Ііґµ¶·ё№є»јЅѕїАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[1252] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚ƒ„…†‡ˆ‰Š‹Œ�Ž��‘’“”•–—˜™š›œ�žŸ&nbsp;¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[1253] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚ƒ„…†‡�‰�‹�����‘’“”•–—�™�›����&nbsp;΅Ά£¤¥¦§¨©�«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡ�ΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ�", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[1254] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚ƒ„…†‡ˆ‰Š‹Œ����‘’“”•–—˜™š›œ��Ÿ&nbsp;¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóôõö÷øùúûüışÿ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[1255] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚ƒ„…†‡ˆ‰�‹�����‘’“”•–—˜™�›����&nbsp;¡¢£₪¥¦§¨©×«¬­®¯°±²³´µ¶·¸¹÷»¼½¾¿ְֱֲֳִֵֶַָֹ�ֻּֽ־ֿ׀ׁׂ׃װױײ׳״�������אבגדהוזחטיךכלםמןנסעףפץצקרשת��‎‏�", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[1256] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€پ‚ƒ„…†‡ˆ‰ٹ‹Œچژڈگ‘’“”•–—ک™ڑ›œ‌‍ں&nbsp;،¢£¤¥¦§¨©ھ«¬­®¯°±²³´µ¶·¸¹؛»¼½¾؟ہءآأؤإئابةتثجحخدذرزسشصض×طظعغـفقكàلâمنهوçèéêëىيîïًٌٍَôُِ÷ّùْûü‎‏ے", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[1257] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚�„…†‡�‰�‹�¨ˇ¸�‘’“”•–—�™�›�¯˛�&nbsp;�¢£¤�¦§Ø©Ŗ«¬­®Æ°±²³´µ¶·ø¹ŗ»¼½¾æĄĮĀĆÄÅĘĒČÉŹĖĢĶĪĻŠŃŅÓŌÕÖ×ŲŁŚŪÜŻŽßąįāćäåęēčéźėģķīļšńņóōõö÷ųłśūüżž˙", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[1258] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚ƒ„…†‡ˆ‰�‹Œ����‘’“”•–—˜™�›œ��Ÿ&nbsp;¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂĂÄÅÆÇÈÉÊË̀ÍÎÏĐÑ̉ÓÔƠÖ×ØÙÚÛÜỮßàáâăäåæçèéêë́íîïđṇ̃óôơö÷øùúûüư₫ÿ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[10000] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»…&nbsp;ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄¤‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔ�ÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[10006] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~Ä¹²É³ÖÜ΅àâä΄¨çéèêë£™îï•½‰ôö¦­ùûü†ΓΔΘΛΞΠß®©ΣΪ§≠°·Α±≤≥¥ΒΕΖΗΙΚΜΦΫΨΩάΝ¬ΟΡ≈Τ«»…&nbsp;ΥΧΆΈœ–―“”‘’÷ΉΊΌΎέήίόΏύαβψδεφγηιξκλμνοπώρστθωςχυζϊϋΐΰ�", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[10007] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ†°¢£§•¶І®©™Ђђ≠Ѓѓ∞±≤≥іµ∂ЈЄєЇїЉљЊњјЅ¬√ƒ≈∆«»…&nbsp;ЋћЌќѕ–—“”‘’÷„ЎўЏџ№Ёёяабвгдежзийклмнопрстуфхцчшщъыьэю¤", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[10029] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄĀāÉĄÖÜáąČäčĆćéŹźĎíďĒēĖóėôöõúĚěü†°Ę£§•¶ß®©™ę¨≠ģĮįĪ≤≥īĶ∂∑łĻļĽľĹĺŅņŃ¬√ńŇ∆«»…&nbsp;ňŐÕőŌ–—“”‘’÷◊ōŔŕŘ‹›řŖŗŠ‚„šŚśÁŤťÍŽžŪÓÔūŮÚůŰűŲųÝýķŻŁżĢˇ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken">E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[10079] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûüÝ°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»…&nbsp;ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄¤ÐðÞþý·‚„‰ÂÊÁËÈÍÎÏÌÓÔ�ÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-cptable[10081] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»…&nbsp;ÀÃÕŒœ–—“”‘’÷◊ÿŸĞğİıŞş‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔ�ÒÚÛÙ�ˆ˜¯˘˙˚¸˝˛ˇ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
-<span class="missing-if-branch" title="else path not taken">E</span>if (typeof module !== 'undefined' &amp;&amp; module.exports) module.exports = cptable;
+cptable[1250] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚�„…†‡�‰Š‹ŚŤŽŹ�‘’“”•–—�™š›śťžź ˇ˘Ł¤Ą¦§¨©Ş«¬­®Ż°±˛ł´µ¶·¸ąş»Ľ˝ľżŔÁÂĂÄĹĆÇČÉĘËĚÍÎĎĐŃŇÓÔŐÖ×ŘŮÚŰÜÝŢßŕáâăäĺćçčéęëěíîďđńňóôőö÷řůúűüýţ˙", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[1251] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ЂЃ‚ѓ„…†‡€‰Љ‹ЊЌЋЏђ‘’“”•–—�™љ›њќћџ ЎўЈ¤Ґ¦§Ё©Є«¬­®Ї°±Ііґµ¶·ё№є»јЅѕїАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[1252] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚ƒ„…†‡ˆ‰Š‹Œ�Ž��‘’“”•–—˜™š›œ�žŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[1253] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚ƒ„…†‡�‰�‹�����‘’“”•–—�™�›���� ΅Ά£¤¥¦§¨©�«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡ�ΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ�", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[1254] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚ƒ„…†‡ˆ‰Š‹Œ����‘’“”•–—˜™š›œ��Ÿ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóôõö÷øùúûüışÿ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[1255] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚ƒ„…†‡ˆ‰�‹�����‘’“”•–—˜™�›���� ¡¢£₪¥¦§¨©×«¬­®¯°±²³´µ¶·¸¹÷»¼½¾¿ְֱֲֳִֵֶַָֹ�ֻּֽ־ֿ׀ׁׂ׃װױײ׳״�������אבגדהוזחטיךכלםמןנסעףפץצקרשת��‎‏�", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[1256] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€پ‚ƒ„…†‡ˆ‰ٹ‹Œچژڈگ‘’“”•–—ک™ڑ›œ‌‍ں ،¢£¤¥¦§¨©ھ«¬­®¯°±²³´µ¶·¸¹؛»¼½¾؟ہءآأؤإئابةتثجحخدذرزسشصض×طظعغـفقكàلâمنهوçèéêëىيîïًٌٍَôُِ÷ّùْûü‎‏ے", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[1257] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚�„…†‡�‰�‹�¨ˇ¸�‘’“”•–—�™�›�¯˛� �¢£¤�¦§Ø©Ŗ«¬­®Æ°±²³´µ¶·ø¹ŗ»¼½¾æĄĮĀĆÄÅĘĒČÉŹĖĢĶĪĻŠŃŅÓŌÕÖ×ŲŁŚŪÜŻŽßąįāćäåęēčéźėģķīļšńņóōõö÷ųłśūüżž˙", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[1258] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€�‚ƒ„…†‡ˆ‰�‹Œ����‘’“”•–—˜™�›œ��Ÿ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂĂÄÅÆÇÈÉÊË̀ÍÎÏĐÑ̉ÓÔƠÖ×ØÙÚÛÜỮßàáâăäåæçèéêë́íîïđṇ̃óôơö÷øùúûüư₫ÿ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[10000] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄¤‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔ�ÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[10006] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~Ä¹²É³ÖÜ΅àâä΄¨çéèêë£™îï•½‰ôö¦­ùûü†ΓΔΘΛΞΠß®©ΣΪ§≠°·Α±≤≥¥ΒΕΖΗΙΚΜΦΫΨΩάΝ¬ΟΡ≈Τ«»… ΥΧΆΈœ–―“”‘’÷ΉΊΌΎέήίόΏύαβψδεφγηιξκλμνοπώρστθωςχυζϊϋΐΰ�", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[10007] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ†°¢£§•¶І®©™Ђђ≠Ѓѓ∞±≤≥іµ∂ЈЄєЇїЉљЊњјЅ¬√ƒ≈∆«»… ЋћЌќѕ–—“”‘’÷„ЎўЏџ№Ёёяабвгдежзийклмнопрстуфхцчшщъыьэю¤", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[10029] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄĀāÉĄÖÜáąČäčĆćéŹźĎíďĒēĖóėôöõúĚěü†°Ę£§•¶ß®©™ę¨≠ģĮįĪ≤≥īĶ∂∑łĻļĽľĹĺŅņŃ¬√ńŇ∆«»… ňŐÕőŌ–—“”‘’÷◊ōŔŕŘ‹›řŖŗŠ‚„šŚśÁŤťÍŽžŪÓÔūŮÚůŰűŲųÝýķŻŁżĢˇ", D = [], e = {}; for(var i=0;i!=d.length;++i) { <span class="missing-if-branch" title="else path not taken" >E</span>if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[10079] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûüÝ°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄¤ÐðÞþý·‚„‰ÂÊÁËÈÍÎÏÌÓÔ�ÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+cptable[10081] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸĞğİıŞş‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔ�ÒÚÛÙ�ˆ˜¯˘˙˚¸˝˛ˇ", D = [], e = {}; for(var i=0;i!=d.length;++i) { if(d.charCodeAt(i) !== 0xFFFD) e[d.charAt(i)] = i; D[i] = d.charAt(i); } return {"enc": e, "dec": D }; })();
+<span class="missing-if-branch" title="else path not taken" >E</span>if (typeof module !== 'undefined' &amp;&amp; module.exports) module.exports = cptable;
 /* cputils.js (C) 2013-present SheetJS -- http://sheetjs.com */
 /* vim: set ft=javascript: */
 /*jshint newcap: false */
 (function(root, factory) {
   "use strict";
-  <span class="missing-if-branch" title="if path not taken">I</span>if(typeof cptable === "undefined") {
-<span class="cstat-no" title="statement not covered">    if(typeof require !== "undefined"){</span>
-<span class="cstat-no" title="statement not covered">      var cpt = cptable;</span>
-<span class="cstat-no" title="statement not covered">      if (typeof module !== 'undefined' &amp;&amp; module.exports) <span class="cstat-no" title="statement not covered">module.exports = factory(cpt);</span></span>
-      else <span class="cstat-no" title="statement not covered">root.cptable = factory(cpt);</span>
-    } else <span class="cstat-no" title="statement not covered">throw new Error("cptable not found");</span>
+  <span class="missing-if-branch" title="if path not taken" >I</span>if(typeof cptable === "undefined") {
+<span class="cstat-no" title="statement not covered" >    if(typeof require !== "undefined"){</span>
+<span class="cstat-no" title="statement not covered" >      var cpt = cptable;</span>
+<span class="cstat-no" title="statement not covered" >      if (typeof module !== 'undefined' &amp;&amp; module.exports) <span class="cstat-no" title="statement not covered" >module.exports = factory(cpt);</span></span>
+      else <span class="cstat-no" title="statement not covered" >root.cptable = factory(cpt);</span>
+    } else <span class="cstat-no" title="statement not covered" >throw new Error("cptable not found");</span>
   } else cptable = factory(cptable);
 }(this, function(cpt){
   "use strict";
@@ -3707,82 +3709,82 @@ cptable[10081] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u000
   var cpdcache = {};
   var cpecache = {};
 &nbsp;
-  var sfcc = <span class="fstat-no" title="function not covered">function sfcc(x) {</span> <span class="cstat-no" title="statement not covered">return String.fromCharCode(x); </span>};
-  var cca = <span class="fstat-no" title="function not covered">function cca(x) {</span> <span class="cstat-no" title="statement not covered">return x.charCodeAt(0); </span>};
+  var sfcc = <span class="fstat-no" title="function not covered" >function sfcc(x) {</span> <span class="cstat-no" title="statement not covered" >return String.fromCharCode(x); </span>};
+  var cca = <span class="fstat-no" title="function not covered" >function cca(x) {</span> <span class="cstat-no" title="statement not covered" >return x.charCodeAt(0); </span>};
 &nbsp;
   var has_buf = (typeof Buffer !== 'undefined');
-  <span class="missing-if-branch" title="else path not taken">E</span>if(has_buf) {
+  <span class="missing-if-branch" title="else path not taken" >E</span>if(has_buf) {
     var mdl = 1024, mdb = new Buffer(mdl);
     var make_EE = function make_EE(E){
       var EE = new Buffer(65536);
       for(var i = 0; i &lt; 65536;++i) EE[i] = 0;
       var keys = Object.keys(E), len = keys.length;
       for(var ee = 0, e = keys[ee]; ee &lt; len; ++ee) {
-        <span class="missing-if-branch" title="if path not taken">I</span>if(!(e = keys[ee])) <span class="cstat-no" title="statement not covered">continue;</span>
+        <span class="missing-if-branch" title="if path not taken" >I</span>if(!(e = keys[ee])) <span class="cstat-no" title="statement not covered" >continue;</span>
         EE[e.charCodeAt(0)] = E[e];
       }
       return EE;
     };
     var sbcs_encode = function make_sbcs_encode(cp) {
       var EE = make_EE(cpt[cp].enc);
-      return <span class="fstat-no" title="function not covered">function sbcs_e(data, ofmt) {</span>
-<span class="cstat-no" title="statement not covered">        var len = data.length;</span>
-<span class="cstat-no" title="statement not covered">        var out, i=0, j=0, D=0, w=0;</span>
-<span class="cstat-no" title="statement not covered">        if(typeof data === 'string') {</span>
-<span class="cstat-no" title="statement not covered">          out = new Buffer(len);</span>
-<span class="cstat-no" title="statement not covered">          for(i = 0; i &lt; len; ++i) <span class="cstat-no" title="statement not covered">out[i] = EE[data.charCodeAt(i)];</span></span>
-        } else <span class="cstat-no" title="statement not covered">if(Buffer.isBuffer(data)) {</span>
-<span class="cstat-no" title="statement not covered">          out = new Buffer(2*len);</span>
-<span class="cstat-no" title="statement not covered">          j = 0;</span>
-<span class="cstat-no" title="statement not covered">          for(i = 0; i &lt; len; ++i) {</span>
-<span class="cstat-no" title="statement not covered">            D = data[i];</span>
-<span class="cstat-no" title="statement not covered">            if(D &lt; 128) <span class="cstat-no" title="statement not covered">out[j++] = EE[D];</span></span>
-            else <span class="cstat-no" title="statement not covered">if(D &lt; 224) { <span class="cstat-no" title="statement not covered">out[j++] = EE[((D&amp;31)&lt;&lt;6)+(data[i+1]&amp;63)]; <span class="cstat-no" title="statement not covered"></span>++i; </span>}</span>
-            else <span class="cstat-no" title="statement not covered">if(D &lt; 240) { <span class="cstat-no" title="statement not covered">out[j++] = EE[((D&amp;15)&lt;&lt;12)+((data[i+1]&amp;63)&lt;&lt;6)+(data[i+2]&amp;63)]; <span class="cstat-no" title="statement not covered"></span>i+=2; </span>}</span>
+      return <span class="fstat-no" title="function not covered" >function sbcs_e(data, ofmt) {</span>
+<span class="cstat-no" title="statement not covered" >        var len = data.length;</span>
+<span class="cstat-no" title="statement not covered" >        var out, i=0, j=0, D=0, w=0;</span>
+<span class="cstat-no" title="statement not covered" >        if(typeof data === 'string') {</span>
+<span class="cstat-no" title="statement not covered" >          out = new Buffer(len);</span>
+<span class="cstat-no" title="statement not covered" >          for(i = 0; i &lt; len; ++i) <span class="cstat-no" title="statement not covered" >out[i] = EE[data.charCodeAt(i)];</span></span>
+        } else <span class="cstat-no" title="statement not covered" >if(Buffer.isBuffer(data)) {</span>
+<span class="cstat-no" title="statement not covered" >          out = new Buffer(2*len);</span>
+<span class="cstat-no" title="statement not covered" >          j = 0;</span>
+<span class="cstat-no" title="statement not covered" >          for(i = 0; i &lt; len; ++i) {</span>
+<span class="cstat-no" title="statement not covered" >            D = data[i];</span>
+<span class="cstat-no" title="statement not covered" >            if(D &lt; 128) <span class="cstat-no" title="statement not covered" >out[j++] = EE[D];</span></span>
+            else <span class="cstat-no" title="statement not covered" >if(D &lt; 224) { <span class="cstat-no" title="statement not covered" >out[j++] = EE[((D&amp;31)&lt;&lt;6)+(data[i+1]&amp;63)]; <span class="cstat-no" title="statement not covered" ></span>++i; </span>}</span>
+            else <span class="cstat-no" title="statement not covered" >if(D &lt; 240) { <span class="cstat-no" title="statement not covered" >out[j++] = EE[((D&amp;15)&lt;&lt;12)+((data[i+1]&amp;63)&lt;&lt;6)+(data[i+2]&amp;63)]; <span class="cstat-no" title="statement not covered" ></span>i+=2; </span>}</span>
             else {
-<span class="cstat-no" title="statement not covered">              w = ((D&amp;7)&lt;&lt;18)+((data[i+1]&amp;63)&lt;&lt;12)+((data[i+2]&amp;63)&lt;&lt;6)+(data[i+3]&amp;63); <span class="cstat-no" title="statement not covered"></span>i+=3;</span>
-<span class="cstat-no" title="statement not covered">              if(w &lt; 65536) <span class="cstat-no" title="statement not covered">out[j++] = EE[w];</span></span>
-              else { <span class="cstat-no" title="statement not covered">w -= 65536; <span class="cstat-no" title="statement not covered"></span>out[j++] = EE[0xD800 + ((w&gt;&gt;10)&amp;1023)]; <span class="cstat-no" title="statement not covered"></span>out[j++] = EE[0xDC00 + (w&amp;1023)]; </span>}
+<span class="cstat-no" title="statement not covered" >              w = ((D&amp;7)&lt;&lt;18)+((data[i+1]&amp;63)&lt;&lt;12)+((data[i+2]&amp;63)&lt;&lt;6)+(data[i+3]&amp;63); <span class="cstat-no" title="statement not covered" ></span>i+=3;</span>
+<span class="cstat-no" title="statement not covered" >              if(w &lt; 65536) <span class="cstat-no" title="statement not covered" >out[j++] = EE[w];</span></span>
+              else { <span class="cstat-no" title="statement not covered" >w -= 65536; <span class="cstat-no" title="statement not covered" ></span>out[j++] = EE[0xD800 + ((w&gt;&gt;10)&amp;1023)]; <span class="cstat-no" title="statement not covered" ></span>out[j++] = EE[0xDC00 + (w&amp;1023)]; </span>}
             }
           }
-<span class="cstat-no" title="statement not covered">          out = out.slice(0,j);</span>
+<span class="cstat-no" title="statement not covered" >          out = out.slice(0,j);</span>
         } else {
-<span class="cstat-no" title="statement not covered">          out = new Buffer(len);</span>
-<span class="cstat-no" title="statement not covered">          for(i = 0; i &lt; len; ++i) <span class="cstat-no" title="statement not covered">out[i] = EE[data[i].charCodeAt(0)];</span></span>
+<span class="cstat-no" title="statement not covered" >          out = new Buffer(len);</span>
+<span class="cstat-no" title="statement not covered" >          for(i = 0; i &lt; len; ++i) <span class="cstat-no" title="statement not covered" >out[i] = EE[data[i].charCodeAt(0)];</span></span>
         }
-<span class="cstat-no" title="statement not covered">        if(!ofmt || ofmt === 'buf') <span class="cstat-no" title="statement not covered">return out;</span></span>
-<span class="cstat-no" title="statement not covered">        if(ofmt !== 'arr') <span class="cstat-no" title="statement not covered">return out.toString('binary');</span></span>
-<span class="cstat-no" title="statement not covered">        return [].slice.call(out);</span>
+<span class="cstat-no" title="statement not covered" >        if(!ofmt || ofmt === 'buf') <span class="cstat-no" title="statement not covered" >return out;</span></span>
+<span class="cstat-no" title="statement not covered" >        if(ofmt !== 'arr') <span class="cstat-no" title="statement not covered" >return out.toString('binary');</span></span>
+<span class="cstat-no" title="statement not covered" >        return [].slice.call(out);</span>
       };
     };
     var sbcs_decode = function make_sbcs_decode(cp) {
       var D = cpt[cp].dec;
       var DD = new Buffer(131072), d=0, c="";
       for(d=0;d&lt;D.length;++d) {
-        <span class="missing-if-branch" title="if path not taken">I</span>if(!(c=D[d])) <span class="cstat-no" title="statement not covered">continue;</span>
+        <span class="missing-if-branch" title="if path not taken" >I</span>if(!(c=D[d])) <span class="cstat-no" title="statement not covered" >continue;</span>
         var w = c.charCodeAt(0);
         DD[2*d] = w&amp;255; DD[2*d+1] = w&gt;&gt;8;
       }
-      return <span class="fstat-no" title="function not covered">function sbcs_d(data) {</span>
-<span class="cstat-no" title="statement not covered">        var len = data.length, i=0, j=0;</span>
-<span class="cstat-no" title="statement not covered">        if(2 * len &gt; mdl) { <span class="cstat-no" title="statement not covered">mdl = 2 * len; <span class="cstat-no" title="statement not covered"></span>mdb = new Buffer(mdl); </span>}</span>
-<span class="cstat-no" title="statement not covered">        if(Buffer.isBuffer(data)) {</span>
-<span class="cstat-no" title="statement not covered">          for(i = 0; i &lt; len; i++) {</span>
-<span class="cstat-no" title="statement not covered">            j = 2*data[i];</span>
-<span class="cstat-no" title="statement not covered">            mdb[2*i] = DD[j]; <span class="cstat-no" title="statement not covered"></span>mdb[2*i+1] = DD[j+1];</span>
+      return <span class="fstat-no" title="function not covered" >function sbcs_d(data) {</span>
+<span class="cstat-no" title="statement not covered" >        var len = data.length, i=0, j=0;</span>
+<span class="cstat-no" title="statement not covered" >        if(2 * len &gt; mdl) { <span class="cstat-no" title="statement not covered" >mdl = 2 * len; <span class="cstat-no" title="statement not covered" ></span>mdb = new Buffer(mdl); </span>}</span>
+<span class="cstat-no" title="statement not covered" >        if(Buffer.isBuffer(data)) {</span>
+<span class="cstat-no" title="statement not covered" >          for(i = 0; i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            j = 2*data[i];</span>
+<span class="cstat-no" title="statement not covered" >            mdb[2*i] = DD[j]; <span class="cstat-no" title="statement not covered" ></span>mdb[2*i+1] = DD[j+1];</span>
           }
-        } else <span class="cstat-no" title="statement not covered">if(typeof data === "string") {</span>
-<span class="cstat-no" title="statement not covered">          for(i = 0; i &lt; len; i++) {</span>
-<span class="cstat-no" title="statement not covered">            j = 2*data.charCodeAt(i);</span>
-<span class="cstat-no" title="statement not covered">            mdb[2*i] = DD[j]; <span class="cstat-no" title="statement not covered"></span>mdb[2*i+1] = DD[j+1];</span>
+        } else <span class="cstat-no" title="statement not covered" >if(typeof data === "string") {</span>
+<span class="cstat-no" title="statement not covered" >          for(i = 0; i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            j = 2*data.charCodeAt(i);</span>
+<span class="cstat-no" title="statement not covered" >            mdb[2*i] = DD[j]; <span class="cstat-no" title="statement not covered" ></span>mdb[2*i+1] = DD[j+1];</span>
           }
         } else {
-<span class="cstat-no" title="statement not covered">          for(i = 0; i &lt; len; i++) {</span>
-<span class="cstat-no" title="statement not covered">            j = 2*data[i];</span>
-<span class="cstat-no" title="statement not covered">            mdb[2*i] = DD[j]; <span class="cstat-no" title="statement not covered"></span>mdb[2*i+1] = DD[j+1];</span>
+<span class="cstat-no" title="statement not covered" >          for(i = 0; i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            j = 2*data[i];</span>
+<span class="cstat-no" title="statement not covered" >            mdb[2*i] = DD[j]; <span class="cstat-no" title="statement not covered" ></span>mdb[2*i+1] = DD[j+1];</span>
           }
         }
-<span class="cstat-no" title="statement not covered">        return mdb.slice(0, 2 * len).toString('ucs2');</span>
+<span class="cstat-no" title="statement not covered" >        return mdb.slice(0, 2 * len).toString('ucs2');</span>
       };
     };
     var dbcs_encode = function make_dbcs_encode(cp) {
@@ -3791,41 +3793,41 @@ cptable[10081] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u000
       for(var i = 0; i &lt; 131072; ++i) EE[i] = 0;
       var keys = Object.keys(E);
       for(var ee = 0, e = keys[ee]; ee &lt; keys.length; ++ee) {
-        <span class="missing-if-branch" title="if path not taken">I</span>if(!(e = keys[ee])) <span class="cstat-no" title="statement not covered">continue;</span>
+        <span class="missing-if-branch" title="if path not taken" >I</span>if(!(e = keys[ee])) <span class="cstat-no" title="statement not covered" >continue;</span>
         var f = e.charCodeAt(0);
         EE[2*f] = E[e] &amp; 255; EE[2*f+1] = E[e]&gt;&gt;8;
       }
-      return <span class="fstat-no" title="function not covered">function dbcs_e(data, ofmt) {</span>
-<span class="cstat-no" title="statement not covered">        var len = data.length, out = new Buffer(2*len), i=0, j=0, jj=0, k=0, D=0;</span>
-<span class="cstat-no" title="statement not covered">        if(typeof data === 'string') {</span>
-<span class="cstat-no" title="statement not covered">          for(i = k = 0; i &lt; len; ++i) {</span>
-<span class="cstat-no" title="statement not covered">            j = data.charCodeAt(i)*2;</span>
-<span class="cstat-no" title="statement not covered">            out[k++] = EE[j+1] || EE[j]; <span class="cstat-no" title="statement not covered"></span>if(EE[j+1] &gt; 0) <span class="cstat-no" title="statement not covered">out[k++] = EE[j];</span></span>
+      return <span class="fstat-no" title="function not covered" >function dbcs_e(data, ofmt) {</span>
+<span class="cstat-no" title="statement not covered" >        var len = data.length, out = new Buffer(2*len), i=0, j=0, jj=0, k=0, D=0;</span>
+<span class="cstat-no" title="statement not covered" >        if(typeof data === 'string') {</span>
+<span class="cstat-no" title="statement not covered" >          for(i = k = 0; i &lt; len; ++i) {</span>
+<span class="cstat-no" title="statement not covered" >            j = data.charCodeAt(i)*2;</span>
+<span class="cstat-no" title="statement not covered" >            out[k++] = EE[j+1] || EE[j]; <span class="cstat-no" title="statement not covered" ></span>if(EE[j+1] &gt; 0) <span class="cstat-no" title="statement not covered" >out[k++] = EE[j];</span></span>
           }
-<span class="cstat-no" title="statement not covered">          out = out.slice(0,k);</span>
-        } else <span class="cstat-no" title="statement not covered">if(Buffer.isBuffer(data)) {</span>
-<span class="cstat-no" title="statement not covered">          for(i = k = 0; i &lt; len; ++i) {</span>
-<span class="cstat-no" title="statement not covered">            D = data[i];</span>
-<span class="cstat-no" title="statement not covered">            if(D &lt; 128) <span class="cstat-no" title="statement not covered">j = D;</span></span>
-            else <span class="cstat-no" title="statement not covered">if(D &lt; 224) { <span class="cstat-no" title="statement not covered">j = ((D&amp;31)&lt;&lt;6)+(data[i+1]&amp;63); <span class="cstat-no" title="statement not covered"></span>++i; </span>}</span>
-            else <span class="cstat-no" title="statement not covered">if(D &lt; 240) { <span class="cstat-no" title="statement not covered">j = ((D&amp;15)&lt;&lt;12)+((data[i+1]&amp;63)&lt;&lt;6)+(data[i+2]&amp;63); <span class="cstat-no" title="statement not covered"></span>i+=2; </span>}</span>
-            else { <span class="cstat-no" title="statement not covered">j = ((D&amp;7)&lt;&lt;18)+((data[i+1]&amp;63)&lt;&lt;12)+((data[i+2]&amp;63)&lt;&lt;6)+(data[i+3]&amp;63); <span class="cstat-no" title="statement not covered"></span>i+=3; </span>}
-<span class="cstat-no" title="statement not covered">            if(j&lt;65536) { <span class="cstat-no" title="statement not covered">j*=2; <span class="cstat-no" title="statement not covered"></span>out[k++] = EE[j+1] || EE[j]; <span class="cstat-no" title="statement not covered"></span>if(EE[j+1] &gt; 0) <span class="cstat-no" title="statement not covered">out[k++] = EE[j]; </span></span>}</span>
-            else { <span class="cstat-no" title="statement not covered">jj = j-65536;</span>
-<span class="cstat-no" title="statement not covered">              j=2*(0xD800 + ((jj&gt;&gt;10)&amp;1023)); <span class="cstat-no" title="statement not covered"></span>out[k++] = EE[j+1] || EE[j]; <span class="cstat-no" title="statement not covered"></span>if(EE[j+1] &gt; 0) <span class="cstat-no" title="statement not covered">out[k++] = EE[j];</span></span>
-<span class="cstat-no" title="statement not covered">              j=2*(0xDC00 + (jj&amp;1023)); <span class="cstat-no" title="statement not covered"></span>out[k++] = EE[j+1] || EE[j]; <span class="cstat-no" title="statement not covered"></span>if(EE[j+1] &gt; 0) <span class="cstat-no" title="statement not covered">out[k++] = EE[j];</span></span>
+<span class="cstat-no" title="statement not covered" >          out = out.slice(0,k);</span>
+        } else <span class="cstat-no" title="statement not covered" >if(Buffer.isBuffer(data)) {</span>
+<span class="cstat-no" title="statement not covered" >          for(i = k = 0; i &lt; len; ++i) {</span>
+<span class="cstat-no" title="statement not covered" >            D = data[i];</span>
+<span class="cstat-no" title="statement not covered" >            if(D &lt; 128) <span class="cstat-no" title="statement not covered" >j = D;</span></span>
+            else <span class="cstat-no" title="statement not covered" >if(D &lt; 224) { <span class="cstat-no" title="statement not covered" >j = ((D&amp;31)&lt;&lt;6)+(data[i+1]&amp;63); <span class="cstat-no" title="statement not covered" ></span>++i; </span>}</span>
+            else <span class="cstat-no" title="statement not covered" >if(D &lt; 240) { <span class="cstat-no" title="statement not covered" >j = ((D&amp;15)&lt;&lt;12)+((data[i+1]&amp;63)&lt;&lt;6)+(data[i+2]&amp;63); <span class="cstat-no" title="statement not covered" ></span>i+=2; </span>}</span>
+            else { <span class="cstat-no" title="statement not covered" >j = ((D&amp;7)&lt;&lt;18)+((data[i+1]&amp;63)&lt;&lt;12)+((data[i+2]&amp;63)&lt;&lt;6)+(data[i+3]&amp;63); <span class="cstat-no" title="statement not covered" ></span>i+=3; </span>}
+<span class="cstat-no" title="statement not covered" >            if(j&lt;65536) { <span class="cstat-no" title="statement not covered" >j*=2; <span class="cstat-no" title="statement not covered" ></span>out[k++] = EE[j+1] || EE[j]; <span class="cstat-no" title="statement not covered" ></span>if(EE[j+1] &gt; 0) <span class="cstat-no" title="statement not covered" >out[k++] = EE[j]; </span></span>}</span>
+            else { <span class="cstat-no" title="statement not covered" >jj = j-65536;</span>
+<span class="cstat-no" title="statement not covered" >              j=2*(0xD800 + ((jj&gt;&gt;10)&amp;1023)); <span class="cstat-no" title="statement not covered" ></span>out[k++] = EE[j+1] || EE[j]; <span class="cstat-no" title="statement not covered" ></span>if(EE[j+1] &gt; 0) <span class="cstat-no" title="statement not covered" >out[k++] = EE[j];</span></span>
+<span class="cstat-no" title="statement not covered" >              j=2*(0xDC00 + (jj&amp;1023)); <span class="cstat-no" title="statement not covered" ></span>out[k++] = EE[j+1] || EE[j]; <span class="cstat-no" title="statement not covered" ></span>if(EE[j+1] &gt; 0) <span class="cstat-no" title="statement not covered" >out[k++] = EE[j];</span></span>
             }
           }
-<span class="cstat-no" title="statement not covered">          out = out.slice(0,k);</span>
+<span class="cstat-no" title="statement not covered" >          out = out.slice(0,k);</span>
         } else {
-<span class="cstat-no" title="statement not covered">          for(i = k = 0; i &lt; len; i++) {</span>
-<span class="cstat-no" title="statement not covered">            j = data[i].charCodeAt(0)*2;</span>
-<span class="cstat-no" title="statement not covered">            out[k++] = EE[j+1] || EE[j]; <span class="cstat-no" title="statement not covered"></span>if(EE[j+1] &gt; 0) <span class="cstat-no" title="statement not covered">out[k++] = EE[j];</span></span>
+<span class="cstat-no" title="statement not covered" >          for(i = k = 0; i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            j = data[i].charCodeAt(0)*2;</span>
+<span class="cstat-no" title="statement not covered" >            out[k++] = EE[j+1] || EE[j]; <span class="cstat-no" title="statement not covered" ></span>if(EE[j+1] &gt; 0) <span class="cstat-no" title="statement not covered" >out[k++] = EE[j];</span></span>
           }
         }
-<span class="cstat-no" title="statement not covered">        if(!ofmt || ofmt === 'buf') <span class="cstat-no" title="statement not covered">return out;</span></span>
-<span class="cstat-no" title="statement not covered">        if(ofmt !== 'arr') <span class="cstat-no" title="statement not covered">return out.toString('binary');</span></span>
-<span class="cstat-no" title="statement not covered">        return [].slice.call(out);</span>
+<span class="cstat-no" title="statement not covered" >        if(!ofmt || ofmt === 'buf') <span class="cstat-no" title="statement not covered" >return out;</span></span>
+<span class="cstat-no" title="statement not covered" >        if(ofmt !== 'arr') <span class="cstat-no" title="statement not covered" >return out.toString('binary');</span></span>
+<span class="cstat-no" title="statement not covered" >        return [].slice.call(out);</span>
       };
     };
     var dbcs_decode = function make_dbcs_decode(cp) {
@@ -3838,119 +3840,119 @@ cptable[10081] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u000
         j = 2*d;
         DD[j] = w&amp;255; DD[j+1] = w&gt;&gt;8;
       }
-      return <span class="fstat-no" title="function not covered">function dbcs_d(data) {</span>
-<span class="cstat-no" title="statement not covered">        var len = data.length, out = new Buffer(2*len), i=0, j=0, k=0;</span>
-<span class="cstat-no" title="statement not covered">        if(Buffer.isBuffer(data)) {</span>
-<span class="cstat-no" title="statement not covered">          for(i = 0; i &lt; len; i++) {</span>
-<span class="cstat-no" title="statement not covered">            j = 2*data[i];</span>
-<span class="cstat-no" title="statement not covered">            if(DD[j]===0xFF &amp;&amp; DD[j+1]===0xFD) { <span class="cstat-no" title="statement not covered">j=2*((data[i]&lt;&lt;8)+data[i+1]); <span class="cstat-no" title="statement not covered"></span>++i; </span>}</span>
-<span class="cstat-no" title="statement not covered">            out[k++] = DD[j]; <span class="cstat-no" title="statement not covered"></span>out[k++] = DD[j+1];</span>
+      return <span class="fstat-no" title="function not covered" >function dbcs_d(data) {</span>
+<span class="cstat-no" title="statement not covered" >        var len = data.length, out = new Buffer(2*len), i=0, j=0, k=0;</span>
+<span class="cstat-no" title="statement not covered" >        if(Buffer.isBuffer(data)) {</span>
+<span class="cstat-no" title="statement not covered" >          for(i = 0; i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            j = 2*data[i];</span>
+<span class="cstat-no" title="statement not covered" >            if(DD[j]===0xFF &amp;&amp; DD[j+1]===0xFD) { <span class="cstat-no" title="statement not covered" >j=2*((data[i]&lt;&lt;8)+data[i+1]); <span class="cstat-no" title="statement not covered" ></span>++i; </span>}</span>
+<span class="cstat-no" title="statement not covered" >            out[k++] = DD[j]; <span class="cstat-no" title="statement not covered" ></span>out[k++] = DD[j+1];</span>
           }
-        } else <span class="cstat-no" title="statement not covered">if(typeof data === "string") {</span>
-<span class="cstat-no" title="statement not covered">          for(i = 0; i &lt; len; i++) {</span>
-<span class="cstat-no" title="statement not covered">            j = 2*data.charCodeAt(i);</span>
-<span class="cstat-no" title="statement not covered">            if(DD[j]===0xFF &amp;&amp; DD[j+1]===0xFD) { <span class="cstat-no" title="statement not covered">j=2*((data.charCodeAt(i)&lt;&lt;8)+data.charCodeAt(i+1)); <span class="cstat-no" title="statement not covered"></span>++i; </span>}</span>
-<span class="cstat-no" title="statement not covered">            out[k++] = DD[j]; <span class="cstat-no" title="statement not covered"></span>out[k++] = DD[j+1];</span>
+        } else <span class="cstat-no" title="statement not covered" >if(typeof data === "string") {</span>
+<span class="cstat-no" title="statement not covered" >          for(i = 0; i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            j = 2*data.charCodeAt(i);</span>
+<span class="cstat-no" title="statement not covered" >            if(DD[j]===0xFF &amp;&amp; DD[j+1]===0xFD) { <span class="cstat-no" title="statement not covered" >j=2*((data.charCodeAt(i)&lt;&lt;8)+data.charCodeAt(i+1)); <span class="cstat-no" title="statement not covered" ></span>++i; </span>}</span>
+<span class="cstat-no" title="statement not covered" >            out[k++] = DD[j]; <span class="cstat-no" title="statement not covered" ></span>out[k++] = DD[j+1];</span>
           }
         } else {
-<span class="cstat-no" title="statement not covered">          for(i = 0; i &lt; len; i++) {</span>
-<span class="cstat-no" title="statement not covered">            j = 2*data[i];</span>
-<span class="cstat-no" title="statement not covered">            if(DD[j]===0xFF &amp;&amp; DD[j+1]===0xFD) { <span class="cstat-no" title="statement not covered">j=2*((data[i]&lt;&lt;8)+data[i+1]); <span class="cstat-no" title="statement not covered"></span>++i; </span>}</span>
-<span class="cstat-no" title="statement not covered">            out[k++] = DD[j]; <span class="cstat-no" title="statement not covered"></span>out[k++] = DD[j+1];</span>
+<span class="cstat-no" title="statement not covered" >          for(i = 0; i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            j = 2*data[i];</span>
+<span class="cstat-no" title="statement not covered" >            if(DD[j]===0xFF &amp;&amp; DD[j+1]===0xFD) { <span class="cstat-no" title="statement not covered" >j=2*((data[i]&lt;&lt;8)+data[i+1]); <span class="cstat-no" title="statement not covered" ></span>++i; </span>}</span>
+<span class="cstat-no" title="statement not covered" >            out[k++] = DD[j]; <span class="cstat-no" title="statement not covered" ></span>out[k++] = DD[j+1];</span>
           }
         }
-<span class="cstat-no" title="statement not covered">        return out.slice(0,k).toString('ucs2');</span>
+<span class="cstat-no" title="statement not covered" >        return out.slice(0,k).toString('ucs2');</span>
       };
     };
-    magic_decode[65001] = <span class="fstat-no" title="function not covered">function utf8_d(data) {</span>
-<span class="cstat-no" title="statement not covered">      if(typeof data === "string") <span class="cstat-no" title="statement not covered">return utf8_d(data.split("").map(cca));</span></span>
-<span class="cstat-no" title="statement not covered">      var len = data.length, w = 0, ww = 0;</span>
-<span class="cstat-no" title="statement not covered">      if(4 * len &gt; mdl) { <span class="cstat-no" title="statement not covered">mdl = 4 * len; <span class="cstat-no" title="statement not covered"></span>mdb = new Buffer(mdl); </span>}</span>
-<span class="cstat-no" title="statement not covered">      var i = 0;</span>
-<span class="cstat-no" title="statement not covered">      if(len &gt;= 3 &amp;&amp; data[0] == 0xEF) <span class="cstat-no" title="statement not covered">if(data[1] == 0xBB &amp;&amp; data[2] == 0xBF) <span class="cstat-no" title="statement not covered">i = 3;</span></span></span>
-<span class="cstat-no" title="statement not covered">      for(var j = 1, k = 0, D = 0; i &lt; len; i+=j) {</span>
-<span class="cstat-no" title="statement not covered">        j = 1; <span class="cstat-no" title="statement not covered"></span>D = data[i];</span>
-<span class="cstat-no" title="statement not covered">        if(D &lt; 128) <span class="cstat-no" title="statement not covered">w = D;</span></span>
-        else <span class="cstat-no" title="statement not covered">if(D &lt; 224) { <span class="cstat-no" title="statement not covered">w=(D&amp;31)*64+(data[i+1]&amp;63); <span class="cstat-no" title="statement not covered"></span>j=2; </span>}</span>
-        else <span class="cstat-no" title="statement not covered">if(D &lt; 240) { <span class="cstat-no" title="statement not covered">w=((D&amp;15)&lt;&lt;12)+(data[i+1]&amp;63)*64+(data[i+2]&amp;63); <span class="cstat-no" title="statement not covered"></span>j=3; </span>}</span>
-        else { <span class="cstat-no" title="statement not covered">w=(D&amp;7)*262144+((data[i+1]&amp;63)&lt;&lt;12)+(data[i+2]&amp;63)*64+(data[i+3]&amp;63); <span class="cstat-no" title="statement not covered"></span>j=4; </span>}
-<span class="cstat-no" title="statement not covered">        if(w &lt; 65536) { <span class="cstat-no" title="statement not covered">mdb[k++] = w&amp;255; <span class="cstat-no" title="statement not covered"></span>mdb[k++] = w&gt;&gt;8; </span>}</span>
+    magic_decode[65001] = <span class="fstat-no" title="function not covered" >function utf8_d(data) {</span>
+<span class="cstat-no" title="statement not covered" >      if(typeof data === "string") <span class="cstat-no" title="statement not covered" >return utf8_d(data.split("").map(cca));</span></span>
+<span class="cstat-no" title="statement not covered" >      var len = data.length, w = 0, ww = 0;</span>
+<span class="cstat-no" title="statement not covered" >      if(4 * len &gt; mdl) { <span class="cstat-no" title="statement not covered" >mdl = 4 * len; <span class="cstat-no" title="statement not covered" ></span>mdb = new Buffer(mdl); </span>}</span>
+<span class="cstat-no" title="statement not covered" >      var i = 0;</span>
+<span class="cstat-no" title="statement not covered" >      if(len &gt;= 3 &amp;&amp; data[0] == 0xEF) <span class="cstat-no" title="statement not covered" >if(data[1] == 0xBB &amp;&amp; data[2] == 0xBF) <span class="cstat-no" title="statement not covered" >i = 3;</span></span></span>
+<span class="cstat-no" title="statement not covered" >      for(var j = 1, k = 0, D = 0; i &lt; len; i+=j) {</span>
+<span class="cstat-no" title="statement not covered" >        j = 1; <span class="cstat-no" title="statement not covered" ></span>D = data[i];</span>
+<span class="cstat-no" title="statement not covered" >        if(D &lt; 128) <span class="cstat-no" title="statement not covered" >w = D;</span></span>
+        else <span class="cstat-no" title="statement not covered" >if(D &lt; 224) { <span class="cstat-no" title="statement not covered" >w=(D&amp;31)*64+(data[i+1]&amp;63); <span class="cstat-no" title="statement not covered" ></span>j=2; </span>}</span>
+        else <span class="cstat-no" title="statement not covered" >if(D &lt; 240) { <span class="cstat-no" title="statement not covered" >w=((D&amp;15)&lt;&lt;12)+(data[i+1]&amp;63)*64+(data[i+2]&amp;63); <span class="cstat-no" title="statement not covered" ></span>j=3; </span>}</span>
+        else { <span class="cstat-no" title="statement not covered" >w=(D&amp;7)*262144+((data[i+1]&amp;63)&lt;&lt;12)+(data[i+2]&amp;63)*64+(data[i+3]&amp;63); <span class="cstat-no" title="statement not covered" ></span>j=4; </span>}
+<span class="cstat-no" title="statement not covered" >        if(w &lt; 65536) { <span class="cstat-no" title="statement not covered" >mdb[k++] = w&amp;255; <span class="cstat-no" title="statement not covered" ></span>mdb[k++] = w&gt;&gt;8; </span>}</span>
         else {
-<span class="cstat-no" title="statement not covered">          w -= 65536; <span class="cstat-no" title="statement not covered"></span>ww = 0xD800 + ((w&gt;&gt;10)&amp;1023); <span class="cstat-no" title="statement not covered"></span>w = 0xDC00 + (w&amp;1023);</span>
-<span class="cstat-no" title="statement not covered">          mdb[k++] = ww&amp;255; <span class="cstat-no" title="statement not covered"></span>mdb[k++] = ww&gt;&gt;&gt;8; <span class="cstat-no" title="statement not covered"></span>mdb[k++] = w&amp;255; <span class="cstat-no" title="statement not covered"></span>mdb[k++] = (w&gt;&gt;&gt;8)&amp;255;</span>
+<span class="cstat-no" title="statement not covered" >          w -= 65536; <span class="cstat-no" title="statement not covered" ></span>ww = 0xD800 + ((w&gt;&gt;10)&amp;1023); <span class="cstat-no" title="statement not covered" ></span>w = 0xDC00 + (w&amp;1023);</span>
+<span class="cstat-no" title="statement not covered" >          mdb[k++] = ww&amp;255; <span class="cstat-no" title="statement not covered" ></span>mdb[k++] = ww&gt;&gt;&gt;8; <span class="cstat-no" title="statement not covered" ></span>mdb[k++] = w&amp;255; <span class="cstat-no" title="statement not covered" ></span>mdb[k++] = (w&gt;&gt;&gt;8)&amp;255;</span>
         }
       }
-<span class="cstat-no" title="statement not covered">      return mdb.slice(0,k).toString('ucs2');</span>
+<span class="cstat-no" title="statement not covered" >      return mdb.slice(0,k).toString('ucs2');</span>
     };
-    magic_encode[65001] = <span class="fstat-no" title="function not covered">function utf8_e(data, ofmt) {</span>
-<span class="cstat-no" title="statement not covered">      if(has_buf &amp;&amp; Buffer.isBuffer(data)) {</span>
-<span class="cstat-no" title="statement not covered">        if(!ofmt || ofmt === 'buf') <span class="cstat-no" title="statement not covered">return data;</span></span>
-<span class="cstat-no" title="statement not covered">        if(ofmt !== 'arr') <span class="cstat-no" title="statement not covered">return data.toString('binary');</span></span>
-<span class="cstat-no" title="statement not covered">        return [].slice.call(data);</span>
+    magic_encode[65001] = <span class="fstat-no" title="function not covered" >function utf8_e(data, ofmt) {</span>
+<span class="cstat-no" title="statement not covered" >      if(has_buf &amp;&amp; Buffer.isBuffer(data)) {</span>
+<span class="cstat-no" title="statement not covered" >        if(!ofmt || ofmt === 'buf') <span class="cstat-no" title="statement not covered" >return data;</span></span>
+<span class="cstat-no" title="statement not covered" >        if(ofmt !== 'arr') <span class="cstat-no" title="statement not covered" >return data.toString('binary');</span></span>
+<span class="cstat-no" title="statement not covered" >        return [].slice.call(data);</span>
       }
-<span class="cstat-no" title="statement not covered">      var len = data.length, w = 0, ww = 0, j = 0;</span>
-<span class="cstat-no" title="statement not covered">      var direct = typeof data === "string";</span>
-<span class="cstat-no" title="statement not covered">      if(4 * len &gt; mdl) { <span class="cstat-no" title="statement not covered">mdl = 4 * len; <span class="cstat-no" title="statement not covered"></span>mdb = new Buffer(mdl); </span>}</span>
-<span class="cstat-no" title="statement not covered">      for(var i = 0; i &lt; len; ++i) {</span>
-<span class="cstat-no" title="statement not covered">        w = direct ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
-<span class="cstat-no" title="statement not covered">        if(w &lt;= 0x007F) <span class="cstat-no" title="statement not covered">mdb[j++] = w;</span></span>
-        else <span class="cstat-no" title="statement not covered">if(w &lt;= 0x07FF) {</span>
-<span class="cstat-no" title="statement not covered">          mdb[j++] = 192 + (w &gt;&gt; 6);</span>
-<span class="cstat-no" title="statement not covered">          mdb[j++] = 128 + (w&amp;63);</span>
-        } else <span class="cstat-no" title="statement not covered">if(w &gt;= 0xD800 &amp;&amp; w &lt;= 0xDFFF) {</span>
-<span class="cstat-no" title="statement not covered">          w -= 0xD800; <span class="cstat-no" title="statement not covered"></span>++i;</span>
-<span class="cstat-no" title="statement not covered">          ww = (direct ? data.charCodeAt(i) : data[i].charCodeAt(0)) - 0xDC00 + (w &lt;&lt; 10);</span>
-<span class="cstat-no" title="statement not covered">          mdb[j++] = 240 + ((ww&gt;&gt;&gt;18) &amp; 0x07);</span>
-<span class="cstat-no" title="statement not covered">          mdb[j++] = 144 + ((ww&gt;&gt;&gt;12) &amp; 0x3F);</span>
-<span class="cstat-no" title="statement not covered">          mdb[j++] = 128 + ((ww&gt;&gt;&gt;6) &amp; 0x3F);</span>
-<span class="cstat-no" title="statement not covered">          mdb[j++] = 128 + (ww &amp; 0x3F);</span>
+<span class="cstat-no" title="statement not covered" >      var len = data.length, w = 0, ww = 0, j = 0;</span>
+<span class="cstat-no" title="statement not covered" >      var direct = typeof data === "string";</span>
+<span class="cstat-no" title="statement not covered" >      if(4 * len &gt; mdl) { <span class="cstat-no" title="statement not covered" >mdl = 4 * len; <span class="cstat-no" title="statement not covered" ></span>mdb = new Buffer(mdl); </span>}</span>
+<span class="cstat-no" title="statement not covered" >      for(var i = 0; i &lt; len; ++i) {</span>
+<span class="cstat-no" title="statement not covered" >        w = direct ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
+<span class="cstat-no" title="statement not covered" >        if(w &lt;= 0x007F) <span class="cstat-no" title="statement not covered" >mdb[j++] = w;</span></span>
+        else <span class="cstat-no" title="statement not covered" >if(w &lt;= 0x07FF) {</span>
+<span class="cstat-no" title="statement not covered" >          mdb[j++] = 192 + (w &gt;&gt; 6);</span>
+<span class="cstat-no" title="statement not covered" >          mdb[j++] = 128 + (w&amp;63);</span>
+        } else <span class="cstat-no" title="statement not covered" >if(w &gt;= 0xD800 &amp;&amp; w &lt;= 0xDFFF) {</span>
+<span class="cstat-no" title="statement not covered" >          w -= 0xD800; <span class="cstat-no" title="statement not covered" ></span>++i;</span>
+<span class="cstat-no" title="statement not covered" >          ww = (direct ? data.charCodeAt(i) : data[i].charCodeAt(0)) - 0xDC00 + (w &lt;&lt; 10);</span>
+<span class="cstat-no" title="statement not covered" >          mdb[j++] = 240 + ((ww&gt;&gt;&gt;18) &amp; 0x07);</span>
+<span class="cstat-no" title="statement not covered" >          mdb[j++] = 144 + ((ww&gt;&gt;&gt;12) &amp; 0x3F);</span>
+<span class="cstat-no" title="statement not covered" >          mdb[j++] = 128 + ((ww&gt;&gt;&gt;6) &amp; 0x3F);</span>
+<span class="cstat-no" title="statement not covered" >          mdb[j++] = 128 + (ww &amp; 0x3F);</span>
         } else {
-<span class="cstat-no" title="statement not covered">          mdb[j++] = 224 + (w &gt;&gt; 12);</span>
-<span class="cstat-no" title="statement not covered">          mdb[j++] = 128 + ((w &gt;&gt; 6)&amp;63);</span>
-<span class="cstat-no" title="statement not covered">          mdb[j++] = 128 + (w&amp;63);</span>
+<span class="cstat-no" title="statement not covered" >          mdb[j++] = 224 + (w &gt;&gt; 12);</span>
+<span class="cstat-no" title="statement not covered" >          mdb[j++] = 128 + ((w &gt;&gt; 6)&amp;63);</span>
+<span class="cstat-no" title="statement not covered" >          mdb[j++] = 128 + (w&amp;63);</span>
         }
       }
-<span class="cstat-no" title="statement not covered">      if(!ofmt || ofmt === 'buf') <span class="cstat-no" title="statement not covered">return mdb.slice(0,j);</span></span>
-<span class="cstat-no" title="statement not covered">      if(ofmt !== 'arr') <span class="cstat-no" title="statement not covered">return mdb.slice(0,j).toString('binary');</span></span>
-<span class="cstat-no" title="statement not covered">      return [].slice.call(mdb, 0, j);</span>
+<span class="cstat-no" title="statement not covered" >      if(!ofmt || ofmt === 'buf') <span class="cstat-no" title="statement not covered" >return mdb.slice(0,j);</span></span>
+<span class="cstat-no" title="statement not covered" >      if(ofmt !== 'arr') <span class="cstat-no" title="statement not covered" >return mdb.slice(0,j).toString('binary');</span></span>
+<span class="cstat-no" title="statement not covered" >      return [].slice.call(mdb, 0, j);</span>
     };
   }
 &nbsp;
   var encache = function encache() {
-    <span class="missing-if-branch" title="else path not taken">E</span>if(has_buf) {
-      <span class="missing-if-branch" title="if path not taken">I</span>if(cpdcache[sbcs_cache[0]]) <span class="cstat-no" title="statement not covered">return;</span>
+    <span class="missing-if-branch" title="else path not taken" >E</span>if(has_buf) {
+      <span class="missing-if-branch" title="if path not taken" >I</span>if(cpdcache[sbcs_cache[0]]) <span class="cstat-no" title="statement not covered" >return;</span>
       var i=0, s=0;
       for(i = 0; i &lt; sbcs_cache.length; ++i) {
         s = sbcs_cache[i];
-        <span class="missing-if-branch" title="else path not taken">E</span>if(cpt[s]) {
+        <span class="missing-if-branch" title="else path not taken" >E</span>if(cpt[s]) {
           cpdcache[s] = sbcs_decode(s);
           cpecache[s] = sbcs_encode(s);
         }
       }
       for(i = 0; i &lt; dbcs_cache.length; ++i) {
         s = dbcs_cache[i];
-        <span class="missing-if-branch" title="else path not taken">E</span>if(cpt[s]) {
+        <span class="missing-if-branch" title="else path not taken" >E</span>if(cpt[s]) {
           cpdcache[s] = dbcs_decode(s);
           cpecache[s] = dbcs_encode(s);
         }
       }
       for(i = 0; i &lt; magic_cache.length; ++i) {
         s = magic_cache[i];
-        <span class="missing-if-branch" title="else path not taken">E</span>if(magic_decode[s]) cpdcache[s] = magic_decode[s];
-        <span class="missing-if-branch" title="else path not taken">E</span>if(magic_encode[s]) cpecache[s] = magic_encode[s];
+        <span class="missing-if-branch" title="else path not taken" >E</span>if(magic_decode[s]) cpdcache[s] = magic_decode[s];
+        <span class="missing-if-branch" title="else path not taken" >E</span>if(magic_encode[s]) cpecache[s] = magic_encode[s];
       }
     }
   };
-  var null_enc = <span class="fstat-no" title="function not covered">function(data, ofmt) {</span> <span class="cstat-no" title="statement not covered">return ""; </span>};
-  var cp_decache = <span class="fstat-no" title="function not covered">function cp_decache(cp) {</span> <span class="cstat-no" title="statement not covered">delete cpdcache[cp]; <span class="cstat-no" title="statement not covered"></span>delete cpecache[cp]; </span>};
-  var decache = <span class="fstat-no" title="function not covered">function decache() {</span>
-<span class="cstat-no" title="statement not covered">    if(has_buf) {</span>
-<span class="cstat-no" title="statement not covered">      if(!cpdcache[sbcs_cache[0]]) <span class="cstat-no" title="statement not covered">return;</span></span>
-<span class="cstat-no" title="statement not covered">      sbcs_cache.forEach(cp_decache);</span>
-<span class="cstat-no" title="statement not covered">      dbcs_cache.forEach(cp_decache);</span>
-<span class="cstat-no" title="statement not covered">      magic_cache.forEach(cp_decache);</span>
+  var null_enc = <span class="fstat-no" title="function not covered" >function(data, ofmt) {</span> <span class="cstat-no" title="statement not covered" >return ""; </span>};
+  var cp_decache = <span class="fstat-no" title="function not covered" >function cp_decache(cp) {</span> <span class="cstat-no" title="statement not covered" >delete cpdcache[cp]; <span class="cstat-no" title="statement not covered" ></span>delete cpecache[cp]; </span>};
+  var decache = <span class="fstat-no" title="function not covered" >function decache() {</span>
+<span class="cstat-no" title="statement not covered" >    if(has_buf) {</span>
+<span class="cstat-no" title="statement not covered" >      if(!cpdcache[sbcs_cache[0]]) <span class="cstat-no" title="statement not covered" >return;</span></span>
+<span class="cstat-no" title="statement not covered" >      sbcs_cache.forEach(cp_decache);</span>
+<span class="cstat-no" title="statement not covered" >      dbcs_cache.forEach(cp_decache);</span>
+<span class="cstat-no" title="statement not covered" >      magic_cache.forEach(cp_decache);</span>
     }
-<span class="cstat-no" title="statement not covered">    last_enc = null_enc; <span class="cstat-no" title="statement not covered"></span>last_cp = 0;</span>
+<span class="cstat-no" title="statement not covered" >    last_enc = null_enc; <span class="cstat-no" title="statement not covered" ></span>last_cp = 0;</span>
   };
   var cache = {
     encache: encache,
@@ -3964,238 +3966,237 @@ cptable[10081] = (function(){ var d = "\u0000\u0001\u0002\u0003\u0004\u0005\u000
   var BM = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
   var SetD = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'(),-./:?";
   var last_enc = null_enc, last_cp = 0;
-  var encode = <span class="fstat-no" title="function not covered">function encode(cp, data, ofmt) {</span>
-<span class="cstat-no" title="statement not covered">    if(cp === last_cp &amp;&amp; last_enc) { <span class="cstat-no" title="statement not covered">return last_enc(data, ofmt); </span>}</span>
-<span class="cstat-no" title="statement not covered">    if(cpecache[cp]) { <span class="cstat-no" title="statement not covered">last_enc = cpecache[last_cp=cp]; <span class="cstat-no" title="statement not covered"></span>return last_enc(data, ofmt); </span>}</span>
-<span class="cstat-no" title="statement not covered">    if(has_buf &amp;&amp; Buffer.isBuffer(data)) <span class="cstat-no" title="statement not covered">data = data.toString('utf8');</span></span>
-<span class="cstat-no" title="statement not covered">    var len = data.length;</span>
-<span class="cstat-no" title="statement not covered">    var out = has_buf ? new Buffer(4*len) : [], w=0, i=0, j = 0, ww=0;</span>
-<span class="cstat-no" title="statement not covered">    var C = cpt[cp], E, M = "";</span>
-<span class="cstat-no" title="statement not covered">    var isstr = typeof data === 'string';</span>
-<span class="cstat-no" title="statement not covered">    if(C &amp;&amp; (E=C.enc)) <span class="cstat-no" title="statement not covered">for(i = 0; i &lt; len; ++i, ++j) {</span></span>
-<span class="cstat-no" title="statement not covered">      w = E[isstr? data.charAt(i) : data[i]];</span>
-<span class="cstat-no" title="statement not covered">      if(w &gt; 255) {</span>
-<span class="cstat-no" title="statement not covered">        out[j] = w&gt;&gt;8;</span>
-<span class="cstat-no" title="statement not covered">        out[++j] = w&amp;255;</span>
-      } else <span class="cstat-no" title="statement not covered">out[j] = w&amp;255;</span>
+  var encode = <span class="fstat-no" title="function not covered" >function encode(cp, data, ofmt) {</span>
+<span class="cstat-no" title="statement not covered" >    if(cp === last_cp &amp;&amp; last_enc) { <span class="cstat-no" title="statement not covered" >return last_enc(data, ofmt); </span>}</span>
+<span class="cstat-no" title="statement not covered" >    if(cpecache[cp]) { <span class="cstat-no" title="statement not covered" >last_enc = cpecache[last_cp=cp]; <span class="cstat-no" title="statement not covered" ></span>return last_enc(data, ofmt); </span>}</span>
+<span class="cstat-no" title="statement not covered" >    if(has_buf &amp;&amp; Buffer.isBuffer(data)) <span class="cstat-no" title="statement not covered" >data = data.toString('utf8');</span></span>
+<span class="cstat-no" title="statement not covered" >    var len = data.length;</span>
+<span class="cstat-no" title="statement not covered" >    var out = has_buf ? new Buffer(4*len) : [], w=0, i=0, j = 0, ww=0;</span>
+<span class="cstat-no" title="statement not covered" >    var C = cpt[cp], E, M = "";</span>
+<span class="cstat-no" title="statement not covered" >    var isstr = typeof data === 'string';</span>
+<span class="cstat-no" title="statement not covered" >    if(C &amp;&amp; (E=C.enc)) <span class="cstat-no" title="statement not covered" >for(i = 0; i &lt; len; ++i, ++j) {</span></span>
+<span class="cstat-no" title="statement not covered" >      w = E[isstr? data.charAt(i) : data[i]];</span>
+<span class="cstat-no" title="statement not covered" >      if(w &gt; 255) {</span>
+<span class="cstat-no" title="statement not covered" >        out[j] = w&gt;&gt;8;</span>
+<span class="cstat-no" title="statement not covered" >        out[++j] = w&amp;255;</span>
+      } else <span class="cstat-no" title="statement not covered" >out[j] = w&amp;255;</span>
     }
-    else <span class="cstat-no" title="statement not covered">if((M=magic[cp])) <span class="cstat-no" title="statement not covered">switch(M) {</span></span>
+    else <span class="cstat-no" title="statement not covered" >if((M=magic[cp])) <span class="cstat-no" title="statement not covered" >switch(M) {</span></span>
       case "utf8":
-<span class="cstat-no" title="statement not covered">        if(has_buf &amp;&amp; isstr) { <span class="cstat-no" title="statement not covered">out = new Buffer(data, M); <span class="cstat-no" title="statement not covered"></span>j = out.length; <span class="cstat-no" title="statement not covered"></span>break; </span>}</span>
-<span class="cstat-no" title="statement not covered">        for(i = 0; i &lt; len; ++i, ++j) {</span>
-<span class="cstat-no" title="statement not covered">          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
-<span class="cstat-no" title="statement not covered">          if(w &lt;= 0x007F) <span class="cstat-no" title="statement not covered">out[j] = w;</span></span>
-          else <span class="cstat-no" title="statement not covered">if(w &lt;= 0x07FF) {</span>
-<span class="cstat-no" title="statement not covered">            out[j]   = 192 + (w &gt;&gt; 6);</span>
-<span class="cstat-no" title="statement not covered">            out[++j] = 128 + (w&amp;63);</span>
-          } else <span class="cstat-no" title="statement not covered">if(w &gt;= 0xD800 &amp;&amp; w &lt;= 0xDFFF) {</span>
-<span class="cstat-no" title="statement not covered">            w -= 0xD800;</span>
-<span class="cstat-no" title="statement not covered">            ww = (isstr ? data.charCodeAt(++i) : data[++i].charCodeAt(0)) - 0xDC00 + (w &lt;&lt; 10);</span>
-<span class="cstat-no" title="statement not covered">            out[j]   = 240 + ((ww&gt;&gt;&gt;18) &amp; 0x07);</span>
-<span class="cstat-no" title="statement not covered">            out[++j] = 144 + ((ww&gt;&gt;&gt;12) &amp; 0x3F);</span>
-<span class="cstat-no" title="statement not covered">            out[++j] = 128 + ((ww&gt;&gt;&gt;6) &amp; 0x3F);</span>
-<span class="cstat-no" title="statement not covered">            out[++j] = 128 + (ww &amp; 0x3F);</span>
+<span class="cstat-no" title="statement not covered" >        if(has_buf &amp;&amp; isstr) { <span class="cstat-no" title="statement not covered" >out = new Buffer(data, M); <span class="cstat-no" title="statement not covered" ></span>j = out.length; <span class="cstat-no" title="statement not covered" ></span>break; </span>}</span>
+<span class="cstat-no" title="statement not covered" >        for(i = 0; i &lt; len; ++i, ++j) {</span>
+<span class="cstat-no" title="statement not covered" >          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
+<span class="cstat-no" title="statement not covered" >          if(w &lt;= 0x007F) <span class="cstat-no" title="statement not covered" >out[j] = w;</span></span>
+          else <span class="cstat-no" title="statement not covered" >if(w &lt;= 0x07FF) {</span>
+<span class="cstat-no" title="statement not covered" >            out[j]   = 192 + (w &gt;&gt; 6);</span>
+<span class="cstat-no" title="statement not covered" >            out[++j] = 128 + (w&amp;63);</span>
+          } else <span class="cstat-no" title="statement not covered" >if(w &gt;= 0xD800 &amp;&amp; w &lt;= 0xDFFF) {</span>
+<span class="cstat-no" title="statement not covered" >            w -= 0xD800;</span>
+<span class="cstat-no" title="statement not covered" >            ww = (isstr ? data.charCodeAt(++i) : data[++i].charCodeAt(0)) - 0xDC00 + (w &lt;&lt; 10);</span>
+<span class="cstat-no" title="statement not covered" >            out[j]   = 240 + ((ww&gt;&gt;&gt;18) &amp; 0x07);</span>
+<span class="cstat-no" title="statement not covered" >            out[++j] = 144 + ((ww&gt;&gt;&gt;12) &amp; 0x3F);</span>
+<span class="cstat-no" title="statement not covered" >            out[++j] = 128 + ((ww&gt;&gt;&gt;6) &amp; 0x3F);</span>
+<span class="cstat-no" title="statement not covered" >            out[++j] = 128 + (ww &amp; 0x3F);</span>
           } else {
-<span class="cstat-no" title="statement not covered">            out[j]   = 224 + (w &gt;&gt; 12);</span>
-<span class="cstat-no" title="statement not covered">            out[++j] = 128 + ((w &gt;&gt; 6)&amp;63);</span>
-<span class="cstat-no" title="statement not covered">            out[++j] = 128 + (w&amp;63);</span>
+<span class="cstat-no" title="statement not covered" >            out[j]   = 224 + (w &gt;&gt; 12);</span>
+<span class="cstat-no" title="statement not covered" >            out[++j] = 128 + ((w &gt;&gt; 6)&amp;63);</span>
+<span class="cstat-no" title="statement not covered" >            out[++j] = 128 + (w&amp;63);</span>
           }
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "ascii":
-<span class="cstat-no" title="statement not covered">        if(has_buf &amp;&amp; typeof data === "string") { <span class="cstat-no" title="statement not covered">out = new Buffer(data, M); <span class="cstat-no" title="statement not covered"></span>j = out.length; <span class="cstat-no" title="statement not covered"></span>break; </span>}</span>
-<span class="cstat-no" title="statement not covered">        for(i = 0; i &lt; len; ++i, ++j) {</span>
-<span class="cstat-no" title="statement not covered">          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
-<span class="cstat-no" title="statement not covered">          if(w &lt;= 0x007F) <span class="cstat-no" title="statement not covered">out[j] = w;</span></span>
-          else <span class="cstat-no" title="statement not covered">throw new Error("bad ascii " + w);</span>
+<span class="cstat-no" title="statement not covered" >        if(has_buf &amp;&amp; typeof data === "string") { <span class="cstat-no" title="statement not covered" >out = new Buffer(data, M); <span class="cstat-no" title="statement not covered" ></span>j = out.length; <span class="cstat-no" title="statement not covered" ></span>break; </span>}</span>
+<span class="cstat-no" title="statement not covered" >        for(i = 0; i &lt; len; ++i, ++j) {</span>
+<span class="cstat-no" title="statement not covered" >          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
+<span class="cstat-no" title="statement not covered" >          if(w &lt;= 0x007F) <span class="cstat-no" title="statement not covered" >out[j] = w;</span></span>
+          else <span class="cstat-no" title="statement not covered" >throw new Error("bad ascii " + w);</span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "utf16le":
-<span class="cstat-no" title="statement not covered">        if(has_buf &amp;&amp; typeof data === "string") { <span class="cstat-no" title="statement not covered">out = new Buffer(data, M); <span class="cstat-no" title="statement not covered"></span>j = out.length; <span class="cstat-no" title="statement not covered"></span>break; </span>}</span>
-<span class="cstat-no" title="statement not covered">        for(i = 0; i &lt; len; ++i) {</span>
-<span class="cstat-no" title="statement not covered">          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = w&amp;255;</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = w&gt;&gt;8;</span>
+<span class="cstat-no" title="statement not covered" >        if(has_buf &amp;&amp; typeof data === "string") { <span class="cstat-no" title="statement not covered" >out = new Buffer(data, M); <span class="cstat-no" title="statement not covered" ></span>j = out.length; <span class="cstat-no" title="statement not covered" ></span>break; </span>}</span>
+<span class="cstat-no" title="statement not covered" >        for(i = 0; i &lt; len; ++i) {</span>
+<span class="cstat-no" title="statement not covered" >          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = w&amp;255;</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = w&gt;&gt;8;</span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "utf16be":
-<span class="cstat-no" title="statement not covered">        for(i = 0; i &lt; len; ++i) {</span>
-<span class="cstat-no" title="statement not covered">          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = w&gt;&gt;8;</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = w&amp;255;</span>
+<span class="cstat-no" title="statement not covered" >        for(i = 0; i &lt; len; ++i) {</span>
+<span class="cstat-no" title="statement not covered" >          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = w&gt;&gt;8;</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = w&amp;255;</span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "utf32le":
-<span class="cstat-no" title="statement not covered">        for(i = 0; i &lt; len; ++i) {</span>
-<span class="cstat-no" title="statement not covered">          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
-<span class="cstat-no" title="statement not covered">          if(w &gt;= 0xD800 &amp;&amp; w &lt;= 0xDFFF) <span class="cstat-no" title="statement not covered">w = 0x10000 + ((w - 0xD800) &lt;&lt; 10) + (data[++i].charCodeAt(0) - 0xDC00);</span></span>
-<span class="cstat-no" title="statement not covered">          out[j++] = w&amp;255; <span class="cstat-no" title="statement not covered"></span>w &gt;&gt;= 8;</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = w&amp;255; <span class="cstat-no" title="statement not covered"></span>w &gt;&gt;= 8;</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = w&amp;255; <span class="cstat-no" title="statement not covered"></span>w &gt;&gt;= 8;</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = w&amp;255;</span>
+<span class="cstat-no" title="statement not covered" >        for(i = 0; i &lt; len; ++i) {</span>
+<span class="cstat-no" title="statement not covered" >          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
+<span class="cstat-no" title="statement not covered" >          if(w &gt;= 0xD800 &amp;&amp; w &lt;= 0xDFFF) <span class="cstat-no" title="statement not covered" >w = 0x10000 + ((w - 0xD800) &lt;&lt; 10) + (data[++i].charCodeAt(0) - 0xDC00);</span></span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = w&amp;255; <span class="cstat-no" title="statement not covered" ></span>w &gt;&gt;= 8;</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = w&amp;255; <span class="cstat-no" title="statement not covered" ></span>w &gt;&gt;= 8;</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = w&amp;255; <span class="cstat-no" title="statement not covered" ></span>w &gt;&gt;= 8;</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = w&amp;255;</span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "utf32be":
-<span class="cstat-no" title="statement not covered">        for(i = 0; i &lt; len; ++i) {</span>
-<span class="cstat-no" title="statement not covered">          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
-<span class="cstat-no" title="statement not covered">          if(w &gt;= 0xD800 &amp;&amp; w &lt;= 0xDFFF) <span class="cstat-no" title="statement not covered">w = 0x10000 + ((w - 0xD800) &lt;&lt; 10) + (data[++i].charCodeAt(0) - 0xDC00);</span></span>
-<span class="cstat-no" title="statement not covered">          out[j+3] = w&amp;255; <span class="cstat-no" title="statement not covered"></span>w &gt;&gt;= 8;</span>
-<span class="cstat-no" title="statement not covered">          out[j+2] = w&amp;255; <span class="cstat-no" title="statement not covered"></span>w &gt;&gt;= 8;</span>
-<span class="cstat-no" title="statement not covered">          out[j+1] = w&amp;255; <span class="cstat-no" title="statement not covered"></span>w &gt;&gt;= 8;</span>
-<span class="cstat-no" title="statement not covered">          out[j] = w&amp;255;</span>
-<span class="cstat-no" title="statement not covered">          j+=4;</span>
+<span class="cstat-no" title="statement not covered" >        for(i = 0; i &lt; len; ++i) {</span>
+<span class="cstat-no" title="statement not covered" >          w = isstr ? data.charCodeAt(i) : data[i].charCodeAt(0);</span>
+<span class="cstat-no" title="statement not covered" >          if(w &gt;= 0xD800 &amp;&amp; w &lt;= 0xDFFF) <span class="cstat-no" title="statement not covered" >w = 0x10000 + ((w - 0xD800) &lt;&lt; 10) + (data[++i].charCodeAt(0) - 0xDC00);</span></span>
+<span class="cstat-no" title="statement not covered" >          out[j+3] = w&amp;255; <span class="cstat-no" title="statement not covered" ></span>w &gt;&gt;= 8;</span>
+<span class="cstat-no" title="statement not covered" >          out[j+2] = w&amp;255; <span class="cstat-no" title="statement not covered" ></span>w &gt;&gt;= 8;</span>
+<span class="cstat-no" title="statement not covered" >          out[j+1] = w&amp;255; <span class="cstat-no" title="statement not covered" ></span>w &gt;&gt;= 8;</span>
+<span class="cstat-no" title="statement not covered" >          out[j] = w&amp;255;</span>
+<span class="cstat-no" title="statement not covered" >          j+=4;</span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "utf7":
-<span class="cstat-no" title="statement not covered">        for(i = 0; i &lt; len; i++) {</span>
-<span class="cstat-no" title="statement not covered">          var c = isstr ? data.charAt(i) : data[i].charAt(0);</span>
-<span class="cstat-no" title="statement not covered">          if(c === "+") { <span class="cstat-no" title="statement not covered">out[j++] = 0x2b; <span class="cstat-no" title="statement not covered"></span>out[j++] = 0x2d; <span class="cstat-no" title="statement not covered"></span>continue; </span>}</span>
-<span class="cstat-no" title="statement not covered">          if(SetD.indexOf(c) &gt; -1) { <span class="cstat-no" title="statement not covered">out[j++] = c.charCodeAt(0); <span class="cstat-no" title="statement not covered"></span>continue; </span>}</span>
-<span class="cstat-no" title="statement not covered">          var tt = encode(1201, c);</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = 0x2b;</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = BM.charCodeAt(tt[0]&gt;&gt;2);</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = BM.charCodeAt(((tt[0]&amp;0x03)&lt;&lt;4) + ((tt[1]||0)&gt;&gt;4));</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = BM.charCodeAt(((tt[1]&amp;0x0F)&lt;&lt;2) + ((tt[2]||0)&gt;&gt;6));</span>
-<span class="cstat-no" title="statement not covered">          out[j++] = 0x2d;</span>
+<span class="cstat-no" title="statement not covered" >        for(i = 0; i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >          var c = isstr ? data.charAt(i) : data[i].charAt(0);</span>
+<span class="cstat-no" title="statement not covered" >          if(c === "+") { <span class="cstat-no" title="statement not covered" >out[j++] = 0x2b; <span class="cstat-no" title="statement not covered" ></span>out[j++] = 0x2d; <span class="cstat-no" title="statement not covered" ></span>continue; </span>}</span>
+<span class="cstat-no" title="statement not covered" >          if(SetD.indexOf(c) &gt; -1) { <span class="cstat-no" title="statement not covered" >out[j++] = c.charCodeAt(0); <span class="cstat-no" title="statement not covered" ></span>continue; </span>}</span>
+<span class="cstat-no" title="statement not covered" >          var tt = encode(1201, c);</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = 0x2b;</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = BM.charCodeAt(tt[0]&gt;&gt;2);</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = BM.charCodeAt(((tt[0]&amp;0x03)&lt;&lt;4) + ((tt[1]||0)&gt;&gt;4));</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = BM.charCodeAt(((tt[1]&amp;0x0F)&lt;&lt;2) + ((tt[2]||0)&gt;&gt;6));</span>
+<span class="cstat-no" title="statement not covered" >          out[j++] = 0x2d;</span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
-      default: <span class="cstat-no" title="statement not covered">throw new Error("Unsupported magic: " + cp + " " + magic[cp]);</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
+      default: <span class="cstat-no" title="statement not covered" >throw new Error("Unsupported magic: " + cp + " " + magic[cp]);</span>
     }
-    else <span class="cstat-no" title="statement not covered">throw new Error("Unrecognized CP: " + cp);</span>
-<span class="cstat-no" title="statement not covered">    out = out.slice(0,j);</span>
-<span class="cstat-no" title="statement not covered">    if(!has_buf) <span class="cstat-no" title="statement not covered">return (ofmt == 'str') ? (out).map(sfcc).join("") : out;</span></span>
-<span class="cstat-no" title="statement not covered">    if(!ofmt || ofmt === 'buf') <span class="cstat-no" title="statement not covered">return out;</span></span>
-<span class="cstat-no" title="statement not covered">    if(ofmt !== 'arr') <span class="cstat-no" title="statement not covered">return out.toString('binary');</span></span>
-<span class="cstat-no" title="statement not covered">    return [].slice.call(out);</span>
+    else <span class="cstat-no" title="statement not covered" >throw new Error("Unrecognized CP: " + cp);</span>
+<span class="cstat-no" title="statement not covered" >    out = out.slice(0,j);</span>
+<span class="cstat-no" title="statement not covered" >    if(!has_buf) <span class="cstat-no" title="statement not covered" >return (ofmt == 'str') ? (out).map(sfcc).join("") : out;</span></span>
+<span class="cstat-no" title="statement not covered" >    if(!ofmt || ofmt === 'buf') <span class="cstat-no" title="statement not covered" >return out;</span></span>
+<span class="cstat-no" title="statement not covered" >    if(ofmt !== 'arr') <span class="cstat-no" title="statement not covered" >return out.toString('binary');</span></span>
+<span class="cstat-no" title="statement not covered" >    return [].slice.call(out);</span>
   };
-  var decode = <span class="fstat-no" title="function not covered">function decode(cp, data) {</span>
-<span class="cstat-no" title="statement not covered">    var F; <span class="cstat-no" title="statement not covered"></span>if((F=cpdcache[cp])) <span class="cstat-no" title="statement not covered">return F(data);</span></span>
-<span class="cstat-no" title="statement not covered">    if(typeof data === "string") <span class="cstat-no" title="statement not covered">return decode(cp, data.split("").map(cca));</span></span>
-<span class="cstat-no" title="statement not covered">    var len = data.length, out = new Array(len), s="", w=0, i=0, j=1, k=0, ww=0;</span>
-<span class="cstat-no" title="statement not covered">    var C = cpt[cp], D, M="";</span>
-<span class="cstat-no" title="statement not covered">    if(C &amp;&amp; (D=C.dec)) {</span>
-<span class="cstat-no" title="statement not covered">      for(i = 0; i &lt; len; i+=j) {</span>
-<span class="cstat-no" title="statement not covered">        j = 2;</span>
-<span class="cstat-no" title="statement not covered">        s = D[(data[i]&lt;&lt;8)+ data[i+1]];</span>
-<span class="cstat-no" title="statement not covered">        if(!s) {</span>
-<span class="cstat-no" title="statement not covered">          j = 1;</span>
-<span class="cstat-no" title="statement not covered">          s = D[data[i]];</span>
+  var decode = <span class="fstat-no" title="function not covered" >function decode(cp, data) {</span>
+<span class="cstat-no" title="statement not covered" >    var F; <span class="cstat-no" title="statement not covered" ></span>if((F=cpdcache[cp])) <span class="cstat-no" title="statement not covered" >return F(data);</span></span>
+<span class="cstat-no" title="statement not covered" >    if(typeof data === "string") <span class="cstat-no" title="statement not covered" >return decode(cp, data.split("").map(cca));</span></span>
+<span class="cstat-no" title="statement not covered" >    var len = data.length, out = new Array(len), s="", w=0, i=0, j=1, k=0, ww=0;</span>
+<span class="cstat-no" title="statement not covered" >    var C = cpt[cp], D, M="";</span>
+<span class="cstat-no" title="statement not covered" >    if(C &amp;&amp; (D=C.dec)) {</span>
+<span class="cstat-no" title="statement not covered" >      for(i = 0; i &lt; len; i+=j) {</span>
+<span class="cstat-no" title="statement not covered" >        j = 2;</span>
+<span class="cstat-no" title="statement not covered" >        s = D[(data[i]&lt;&lt;8)+ data[i+1]];</span>
+<span class="cstat-no" title="statement not covered" >        if(!s) {</span>
+<span class="cstat-no" title="statement not covered" >          j = 1;</span>
+<span class="cstat-no" title="statement not covered" >          s = D[data[i]];</span>
         }
-<span class="cstat-no" title="statement not covered">        if(!s) <span class="cstat-no" title="statement not covered">throw new Error('Unrecognized code: ' + data[i] + ' ' + data[i+j-1] + ' ' + i + ' ' + j + ' ' + D[data[i]]);</span></span>
-<span class="cstat-no" title="statement not covered">        out[k++] = s;</span>
+<span class="cstat-no" title="statement not covered" >        if(!s) <span class="cstat-no" title="statement not covered" >throw new Error('Unrecognized code: ' + data[i] + ' ' + data[i+j-1] + ' ' + i + ' ' + j + ' ' + D[data[i]]);</span></span>
+<span class="cstat-no" title="statement not covered" >        out[k++] = s;</span>
       }
     }
-    else <span class="cstat-no" title="statement not covered">if((M=magic[cp])) <span class="cstat-no" title="statement not covered">switch(M) {</span></span>
+    else <span class="cstat-no" title="statement not covered" >if((M=magic[cp])) <span class="cstat-no" title="statement not covered" >switch(M) {</span></span>
       case "utf8":
-<span class="cstat-no" title="statement not covered">        if(len &gt;= 3 &amp;&amp; data[0] == 0xEF) <span class="cstat-no" title="statement not covered">if(data[1] == 0xBB &amp;&amp; data[2] == 0xBF) <span class="cstat-no" title="statement not covered">i = 3;</span></span></span>
-<span class="cstat-no" title="statement not covered">        for(; i &lt; len; i+=j) {</span>
-<span class="cstat-no" title="statement not covered">          j = 1;</span>
-<span class="cstat-no" title="statement not covered">          if(data[i] &lt; 128) <span class="cstat-no" title="statement not covered">w = data[i];</span></span>
-          else <span class="cstat-no" title="statement not covered">if(data[i] &lt; 224) { <span class="cstat-no" title="statement not covered">w=(data[i]&amp;31)*64+(data[i+1]&amp;63); <span class="cstat-no" title="statement not covered"></span>j=2; </span>}</span>
-          else <span class="cstat-no" title="statement not covered">if(data[i] &lt; 240) { <span class="cstat-no" title="statement not covered">w=((data[i]&amp;15)&lt;&lt;12)+(data[i+1]&amp;63)*64+(data[i+2]&amp;63); <span class="cstat-no" title="statement not covered"></span>j=3; </span>}</span>
-          else { <span class="cstat-no" title="statement not covered">w=(data[i]&amp;7)*262144+((data[i+1]&amp;63)&lt;&lt;12)+(data[i+2]&amp;63)*64+(data[i+3]&amp;63); <span class="cstat-no" title="statement not covered"></span>j=4; </span>}
-<span class="cstat-no" title="statement not covered">          if(w &lt; 65536) { <span class="cstat-no" title="statement not covered">out[k++] = String.fromCharCode(w); </span>}</span>
+<span class="cstat-no" title="statement not covered" >        if(len &gt;= 3 &amp;&amp; data[0] == 0xEF) <span class="cstat-no" title="statement not covered" >if(data[1] == 0xBB &amp;&amp; data[2] == 0xBF) <span class="cstat-no" title="statement not covered" >i = 3;</span></span></span>
+<span class="cstat-no" title="statement not covered" >        for(; i &lt; len; i+=j) {</span>
+<span class="cstat-no" title="statement not covered" >          j = 1;</span>
+<span class="cstat-no" title="statement not covered" >          if(data[i] &lt; 128) <span class="cstat-no" title="statement not covered" >w = data[i];</span></span>
+          else <span class="cstat-no" title="statement not covered" >if(data[i] &lt; 224) { <span class="cstat-no" title="statement not covered" >w=(data[i]&amp;31)*64+(data[i+1]&amp;63); <span class="cstat-no" title="statement not covered" ></span>j=2; </span>}</span>
+          else <span class="cstat-no" title="statement not covered" >if(data[i] &lt; 240) { <span class="cstat-no" title="statement not covered" >w=((data[i]&amp;15)&lt;&lt;12)+(data[i+1]&amp;63)*64+(data[i+2]&amp;63); <span class="cstat-no" title="statement not covered" ></span>j=3; </span>}</span>
+          else { <span class="cstat-no" title="statement not covered" >w=(data[i]&amp;7)*262144+((data[i+1]&amp;63)&lt;&lt;12)+(data[i+2]&amp;63)*64+(data[i+3]&amp;63); <span class="cstat-no" title="statement not covered" ></span>j=4; </span>}
+<span class="cstat-no" title="statement not covered" >          if(w &lt; 65536) { <span class="cstat-no" title="statement not covered" >out[k++] = String.fromCharCode(w); </span>}</span>
           else {
-<span class="cstat-no" title="statement not covered">            w -= 65536; <span class="cstat-no" title="statement not covered"></span>ww = 0xD800 + ((w&gt;&gt;10)&amp;1023); <span class="cstat-no" title="statement not covered"></span>w = 0xDC00 + (w&amp;1023);</span>
-<span class="cstat-no" title="statement not covered">            out[k++] = String.fromCharCode(ww); <span class="cstat-no" title="statement not covered"></span>out[k++] = String.fromCharCode(w);</span>
+<span class="cstat-no" title="statement not covered" >            w -= 65536; <span class="cstat-no" title="statement not covered" ></span>ww = 0xD800 + ((w&gt;&gt;10)&amp;1023); <span class="cstat-no" title="statement not covered" ></span>w = 0xDC00 + (w&amp;1023);</span>
+<span class="cstat-no" title="statement not covered" >            out[k++] = String.fromCharCode(ww); <span class="cstat-no" title="statement not covered" ></span>out[k++] = String.fromCharCode(w);</span>
           }
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "ascii":
-<span class="cstat-no" title="statement not covered">        if(has_buf &amp;&amp; Buffer.isBuffer(data)) <span class="cstat-no" title="statement not covered">return data.toString(M);</span></span>
-<span class="cstat-no" title="statement not covered">        for(i = 0; i &lt; len; i++) <span class="cstat-no" title="statement not covered">out[i] = String.fromCharCode(data[i]);</span></span>
-<span class="cstat-no" title="statement not covered">        k = len; <span class="cstat-no" title="statement not covered"></span>break;</span>
+<span class="cstat-no" title="statement not covered" >        if(has_buf &amp;&amp; Buffer.isBuffer(data)) <span class="cstat-no" title="statement not covered" >return data.toString(M);</span></span>
+<span class="cstat-no" title="statement not covered" >        for(i = 0; i &lt; len; i++) <span class="cstat-no" title="statement not covered" >out[i] = String.fromCharCode(data[i]);</span></span>
+<span class="cstat-no" title="statement not covered" >        k = len; <span class="cstat-no" title="statement not covered" ></span>break;</span>
       case "utf16le":
-<span class="cstat-no" title="statement not covered">        if(len &gt;= 2 &amp;&amp; data[0] == 0xFF) <span class="cstat-no" title="statement not covered">if(data[1] == 0xFE) <span class="cstat-no" title="statement not covered">i = 2;</span></span></span>
-<span class="cstat-no" title="statement not covered">        if(has_buf &amp;&amp; Buffer.isBuffer(data)) <span class="cstat-no" title="statement not covered">return data.toString(M);</span></span>
-<span class="cstat-no" title="statement not covered">        j = 2;</span>
-<span class="cstat-no" title="statement not covered">        for(; i+1 &lt; len; i+=j) {</span>
-<span class="cstat-no" title="statement not covered">          out[k++] = String.fromCharCode((data[i+1]&lt;&lt;8) + data[i]);</span>
+<span class="cstat-no" title="statement not covered" >        if(len &gt;= 2 &amp;&amp; data[0] == 0xFF) <span class="cstat-no" title="statement not covered" >if(data[1] == 0xFE) <span class="cstat-no" title="statement not covered" >i = 2;</span></span></span>
+<span class="cstat-no" title="statement not covered" >        if(has_buf &amp;&amp; Buffer.isBuffer(data)) <span class="cstat-no" title="statement not covered" >return data.toString(M);</span></span>
+<span class="cstat-no" title="statement not covered" >        j = 2;</span>
+<span class="cstat-no" title="statement not covered" >        for(; i+1 &lt; len; i+=j) {</span>
+<span class="cstat-no" title="statement not covered" >          out[k++] = String.fromCharCode((data[i+1]&lt;&lt;8) + data[i]);</span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "utf16be":
-<span class="cstat-no" title="statement not covered">        if(len &gt;= 2 &amp;&amp; data[0] == 0xFE) <span class="cstat-no" title="statement not covered">if(data[1] == 0xFF) <span class="cstat-no" title="statement not covered">i = 2;</span></span></span>
-<span class="cstat-no" title="statement not covered">        j = 2;</span>
-<span class="cstat-no" title="statement not covered">        for(; i+1 &lt; len; i+=j) {</span>
-<span class="cstat-no" title="statement not covered">          out[k++] = String.fromCharCode((data[i]&lt;&lt;8) + data[i+1]);</span>
+<span class="cstat-no" title="statement not covered" >        if(len &gt;= 2 &amp;&amp; data[0] == 0xFE) <span class="cstat-no" title="statement not covered" >if(data[1] == 0xFF) <span class="cstat-no" title="statement not covered" >i = 2;</span></span></span>
+<span class="cstat-no" title="statement not covered" >        j = 2;</span>
+<span class="cstat-no" title="statement not covered" >        for(; i+1 &lt; len; i+=j) {</span>
+<span class="cstat-no" title="statement not covered" >          out[k++] = String.fromCharCode((data[i]&lt;&lt;8) + data[i+1]);</span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "utf32le":
-<span class="cstat-no" title="statement not covered">        if(len &gt;= 4 &amp;&amp; data[0] == 0xFF) <span class="cstat-no" title="statement not covered">if(data[1] == 0xFE &amp;&amp; data[2] === 0 &amp;&amp; data[3] === 0) <span class="cstat-no" title="statement not covered">i = 4;</span></span></span>
-<span class="cstat-no" title="statement not covered">        j = 4;</span>
-<span class="cstat-no" title="statement not covered">        for(; i &lt; len; i+=j) {</span>
-<span class="cstat-no" title="statement not covered">          w = (data[i+3]&lt;&lt;24) + (data[i+2]&lt;&lt;16) + (data[i+1]&lt;&lt;8) + (data[i]);</span>
-<span class="cstat-no" title="statement not covered">          if(w &gt; 0xFFFF) {</span>
-<span class="cstat-no" title="statement not covered">            w -= 0x10000;</span>
-<span class="cstat-no" title="statement not covered">            out[k++] = String.fromCharCode(0xD800 + ((w &gt;&gt; 10) &amp; 0x3FF));</span>
-<span class="cstat-no" title="statement not covered">            out[k++] = String.fromCharCode(0xDC00 + (w &amp; 0x3FF));</span>
+<span class="cstat-no" title="statement not covered" >        if(len &gt;= 4 &amp;&amp; data[0] == 0xFF) <span class="cstat-no" title="statement not covered" >if(data[1] == 0xFE &amp;&amp; data[2] === 0 &amp;&amp; data[3] === 0) <span class="cstat-no" title="statement not covered" >i = 4;</span></span></span>
+<span class="cstat-no" title="statement not covered" >        j = 4;</span>
+<span class="cstat-no" title="statement not covered" >        for(; i &lt; len; i+=j) {</span>
+<span class="cstat-no" title="statement not covered" >          w = (data[i+3]&lt;&lt;24) + (data[i+2]&lt;&lt;16) + (data[i+1]&lt;&lt;8) + (data[i]);</span>
+<span class="cstat-no" title="statement not covered" >          if(w &gt; 0xFFFF) {</span>
+<span class="cstat-no" title="statement not covered" >            w -= 0x10000;</span>
+<span class="cstat-no" title="statement not covered" >            out[k++] = String.fromCharCode(0xD800 + ((w &gt;&gt; 10) &amp; 0x3FF));</span>
+<span class="cstat-no" title="statement not covered" >            out[k++] = String.fromCharCode(0xDC00 + (w &amp; 0x3FF));</span>
           }
-          else <span class="cstat-no" title="statement not covered">out[k++] = String.fromCharCode(w);</span>
+          else <span class="cstat-no" title="statement not covered" >out[k++] = String.fromCharCode(w);</span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "utf32be":
-<span class="cstat-no" title="statement not covered">        if(len &gt;= 4 &amp;&amp; data[3] == 0xFF) <span class="cstat-no" title="statement not covered">if(data[2] == 0xFE &amp;&amp; data[1] === 0 &amp;&amp; data[0] === 0) <span class="cstat-no" title="statement not covered">i = 4;</span></span></span>
-<span class="cstat-no" title="statement not covered">        j = 4;</span>
-<span class="cstat-no" title="statement not covered">        for(; i &lt; len; i+=j) {</span>
-<span class="cstat-no" title="statement not covered">          w = (data[i]&lt;&lt;24) + (data[i+1]&lt;&lt;16) + (data[i+2]&lt;&lt;8) + (data[i+3]);</span>
-<span class="cstat-no" title="statement not covered">          if(w &gt; 0xFFFF) {</span>
-<span class="cstat-no" title="statement not covered">            w -= 0x10000;</span>
-<span class="cstat-no" title="statement not covered">            out[k++] = String.fromCharCode(0xD800 + ((w &gt;&gt; 10) &amp; 0x3FF));</span>
-<span class="cstat-no" title="statement not covered">            out[k++] = String.fromCharCode(0xDC00 + (w &amp; 0x3FF));</span>
+<span class="cstat-no" title="statement not covered" >        if(len &gt;= 4 &amp;&amp; data[3] == 0xFF) <span class="cstat-no" title="statement not covered" >if(data[2] == 0xFE &amp;&amp; data[1] === 0 &amp;&amp; data[0] === 0) <span class="cstat-no" title="statement not covered" >i = 4;</span></span></span>
+<span class="cstat-no" title="statement not covered" >        j = 4;</span>
+<span class="cstat-no" title="statement not covered" >        for(; i &lt; len; i+=j) {</span>
+<span class="cstat-no" title="statement not covered" >          w = (data[i]&lt;&lt;24) + (data[i+1]&lt;&lt;16) + (data[i+2]&lt;&lt;8) + (data[i+3]);</span>
+<span class="cstat-no" title="statement not covered" >          if(w &gt; 0xFFFF) {</span>
+<span class="cstat-no" title="statement not covered" >            w -= 0x10000;</span>
+<span class="cstat-no" title="statement not covered" >            out[k++] = String.fromCharCode(0xD800 + ((w &gt;&gt; 10) &amp; 0x3FF));</span>
+<span class="cstat-no" title="statement not covered" >            out[k++] = String.fromCharCode(0xDC00 + (w &amp; 0x3FF));</span>
           }
-          else <span class="cstat-no" title="statement not covered">out[k++] = String.fromCharCode(w);</span>
+          else <span class="cstat-no" title="statement not covered" >out[k++] = String.fromCharCode(w);</span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
       case "utf7":
-<span class="cstat-no" title="statement not covered">        if(len &gt;= 4 &amp;&amp; data[0] == 0x2B &amp;&amp; data[1] == 0x2F &amp;&amp; data[2] == 0x76) {</span>
-<span class="cstat-no" title="statement not covered">          if(len &gt;= 5 &amp;&amp; data[3] == 0x38 &amp;&amp; data[4] == 0x2D) <span class="cstat-no" title="statement not covered">i = 5;</span></span>
-          else <span class="cstat-no" title="statement not covered">if(data[3] == 0x38 || data[3] == 0x39 || data[3] == 0x2B || data[3] == 0x2F) <span class="cstat-no" title="statement not covered">i = 4;</span></span>
+<span class="cstat-no" title="statement not covered" >        if(len &gt;= 4 &amp;&amp; data[0] == 0x2B &amp;&amp; data[1] == 0x2F &amp;&amp; data[2] == 0x76) {</span>
+<span class="cstat-no" title="statement not covered" >          if(len &gt;= 5 &amp;&amp; data[3] == 0x38 &amp;&amp; data[4] == 0x2D) <span class="cstat-no" title="statement not covered" >i = 5;</span></span>
+          else <span class="cstat-no" title="statement not covered" >if(data[3] == 0x38 || data[3] == 0x39 || data[3] == 0x2B || data[3] == 0x2F) <span class="cstat-no" title="statement not covered" >i = 4;</span></span>
         }
-<span class="cstat-no" title="statement not covered">        for(; i &lt; len; i+=j) {</span>
-<span class="cstat-no" title="statement not covered">          if(data[i] !== 0x2b) { <span class="cstat-no" title="statement not covered">j=1; <span class="cstat-no" title="statement not covered"></span>out[k++] = String.fromCharCode(data[i]); <span class="cstat-no" title="statement not covered"></span>continue; </span>}</span>
-<span class="cstat-no" title="statement not covered">          j=1;</span>
-<span class="cstat-no" title="statement not covered">          if(data[i+1] === 0x2d) { <span class="cstat-no" title="statement not covered">j = 2; <span class="cstat-no" title="statement not covered"></span>out[k++] = "+"; <span class="cstat-no" title="statement not covered"></span>continue; </span>}</span>
-<span class="cstat-no" title="statement not covered">          while(String.fromCharCode(data[i+j]).match(/[A-Za-z0-9+\/]/)) <span class="cstat-no" title="statement not covered">j++;</span></span>
-<span class="cstat-no" title="statement not covered">          var dash = 0;</span>
-<span class="cstat-no" title="statement not covered">          if(data[i+j] === 0x2d) { <span class="cstat-no" title="statement not covered">++j; <span class="cstat-no" title="statement not covered"></span>dash=1; </span>}</span>
-<span class="cstat-no" title="statement not covered">          var tt = [];</span>
-<span class="cstat-no" title="statement not covered">          var o64 = "";</span>
-<span class="cstat-no" title="statement not covered">          var c1=0, c2=0, c3=0;</span>
-<span class="cstat-no" title="statement not covered">          var e1=0, e2=0, e3=0, e4=0;</span>
-<span class="cstat-no" title="statement not covered">          for(var l = 1; l &lt; j - dash;) {</span>
-<span class="cstat-no" title="statement not covered">            e1 = BM.indexOf(String.fromCharCode(data[i+l++]));</span>
-<span class="cstat-no" title="statement not covered">            e2 = BM.indexOf(String.fromCharCode(data[i+l++]));</span>
-<span class="cstat-no" title="statement not covered">            c1 = e1 &lt;&lt; 2 | e2 &gt;&gt; 4;</span>
-<span class="cstat-no" title="statement not covered">            tt.push(c1);</span>
-<span class="cstat-no" title="statement not covered">            e3 = BM.indexOf(String.fromCharCode(data[i+l++]));</span>
-<span class="cstat-no" title="statement not covered">            if(e3 === -1) <span class="cstat-no" title="statement not covered">break;</span></span>
-<span class="cstat-no" title="statement not covered">            c2 = (e2 &amp; 15) &lt;&lt; 4 | e3 &gt;&gt; 2;</span>
-<span class="cstat-no" title="statement not covered">            tt.push(c2);</span>
-<span class="cstat-no" title="statement not covered">            e4 = BM.indexOf(String.fromCharCode(data[i+l++]));</span>
-<span class="cstat-no" title="statement not covered">            if(e4 === -1) <span class="cstat-no" title="statement not covered">break;</span></span>
-<span class="cstat-no" title="statement not covered">            c3 = (e3 &amp; 3) &lt;&lt; 6 | e4;</span>
-<span class="cstat-no" title="statement not covered">            if(e4 &lt; 64) <span class="cstat-no" title="statement not covered">tt.push(c3);</span></span>
+<span class="cstat-no" title="statement not covered" >        for(; i &lt; len; i+=j) {</span>
+<span class="cstat-no" title="statement not covered" >          if(data[i] !== 0x2b) { <span class="cstat-no" title="statement not covered" >j=1; <span class="cstat-no" title="statement not covered" ></span>out[k++] = String.fromCharCode(data[i]); <span class="cstat-no" title="statement not covered" ></span>continue; </span>}</span>
+<span class="cstat-no" title="statement not covered" >          j=1;</span>
+<span class="cstat-no" title="statement not covered" >          if(data[i+1] === 0x2d) { <span class="cstat-no" title="statement not covered" >j = 2; <span class="cstat-no" title="statement not covered" ></span>out[k++] = "+"; <span class="cstat-no" title="statement not covered" ></span>continue; </span>}</span>
+<span class="cstat-no" title="statement not covered" >          while(String.fromCharCode(data[i+j]).match(/[A-Za-z0-9+\/]/)) <span class="cstat-no" title="statement not covered" >j++;</span></span>
+<span class="cstat-no" title="statement not covered" >          var dash = 0;</span>
+<span class="cstat-no" title="statement not covered" >          if(data[i+j] === 0x2d) { <span class="cstat-no" title="statement not covered" >++j; <span class="cstat-no" title="statement not covered" ></span>dash=1; </span>}</span>
+<span class="cstat-no" title="statement not covered" >          var tt = [];</span>
+<span class="cstat-no" title="statement not covered" >          var o64 = "";</span>
+<span class="cstat-no" title="statement not covered" >          var c1=0, c2=0, c3=0;</span>
+<span class="cstat-no" title="statement not covered" >          var e1=0, e2=0, e3=0, e4=0;</span>
+<span class="cstat-no" title="statement not covered" >          for(var l = 1; l &lt; j - dash;) {</span>
+<span class="cstat-no" title="statement not covered" >            e1 = BM.indexOf(String.fromCharCode(data[i+l++]));</span>
+<span class="cstat-no" title="statement not covered" >            e2 = BM.indexOf(String.fromCharCode(data[i+l++]));</span>
+<span class="cstat-no" title="statement not covered" >            c1 = e1 &lt;&lt; 2 | e2 &gt;&gt; 4;</span>
+<span class="cstat-no" title="statement not covered" >            tt.push(c1);</span>
+<span class="cstat-no" title="statement not covered" >            e3 = BM.indexOf(String.fromCharCode(data[i+l++]));</span>
+<span class="cstat-no" title="statement not covered" >            if(e3 === -1) <span class="cstat-no" title="statement not covered" >break;</span></span>
+<span class="cstat-no" title="statement not covered" >            c2 = (e2 &amp; 15) &lt;&lt; 4 | e3 &gt;&gt; 2;</span>
+<span class="cstat-no" title="statement not covered" >            tt.push(c2);</span>
+<span class="cstat-no" title="statement not covered" >            e4 = BM.indexOf(String.fromCharCode(data[i+l++]));</span>
+<span class="cstat-no" title="statement not covered" >            if(e4 === -1) <span class="cstat-no" title="statement not covered" >break;</span></span>
+<span class="cstat-no" title="statement not covered" >            c3 = (e3 &amp; 3) &lt;&lt; 6 | e4;</span>
+<span class="cstat-no" title="statement not covered" >            if(e4 &lt; 64) <span class="cstat-no" title="statement not covered" >tt.push(c3);</span></span>
           }
-<span class="cstat-no" title="statement not covered">          o64 = decode(1201, tt);</span>
-<span class="cstat-no" title="statement not covered">          for(l = 0; l &lt; o64.length; ++l) <span class="cstat-no" title="statement not covered">out[k++] = o64.charAt(l);</span></span>
+<span class="cstat-no" title="statement not covered" >          o64 = decode(1201, tt);</span>
+<span class="cstat-no" title="statement not covered" >          for(l = 0; l &lt; o64.length; ++l) <span class="cstat-no" title="statement not covered" >out[k++] = o64.charAt(l);</span></span>
         }
-<span class="cstat-no" title="statement not covered">        break;</span>
-      default: <span class="cstat-no" title="statement not covered">throw new Error("Unsupported magic: " + cp + " " + magic[cp]);</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
+      default: <span class="cstat-no" title="statement not covered" >throw new Error("Unsupported magic: " + cp + " " + magic[cp]);</span>
     }
-    else <span class="cstat-no" title="statement not covered">throw new Error("Unrecognized CP: " + cp);</span>
-<span class="cstat-no" title="statement not covered">    return out.slice(0,k).join("");</span>
+    else <span class="cstat-no" title="statement not covered" >throw new Error("Unrecognized CP: " + cp);</span>
+<span class="cstat-no" title="statement not covered" >    return out.slice(0,k).join("");</span>
   };
-  var hascp = <span class="fstat-no" title="function not covered">function hascp(cp) {</span> <span class="cstat-no" title="statement not covered">return !!(cpt[cp] || magic[cp]); </span>};
+  var hascp = <span class="fstat-no" title="function not covered" >function hascp(cp) {</span> <span class="cstat-no" title="statement not covered" >return !!(cpt[cp] || magic[cp]); </span>};
   cpt.utils = { decode: decode, encode: encode, hascp: hascp, magic: magic, cache:cache };
   return cpt;
 }));
 &nbsp;
 &nbsp;</pre></td></tr>
-</tbody></table></pre>
+</table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 11 2017 07:24:52 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Sun Apr 16 2017 08:57:04 GMT+0000 (UTC)</div>
 </div>
-
-
-</body></html>
+</body>
+</html>
